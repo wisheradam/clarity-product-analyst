@@ -1,0 +1,12 @@
+.env
+
+# VS Code local state
+.vscode/*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+Thumbs.db
+.DS_Store

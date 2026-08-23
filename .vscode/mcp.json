@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "microsoft-clarity": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@microsoft/clarity-mcp-server"
+      ],
+      "envFile": "${workspaceFolder}/.env"
+    }
+  }
+}
