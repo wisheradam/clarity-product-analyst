@@ -1,4 +1,5 @@
 .env
+node_modules/
 
 # VS Code local state
 .vscode/*.log

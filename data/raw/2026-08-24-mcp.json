@@ -1,0 +1,38 @@
+{
+  "collectedAt": "2026-08-24T08:51:27.530Z",
+  "timezone": "Asia/Jerusalem",
+  "analysisWindow": {
+    "localStart": "23/08/2026, 11:51:27",
+    "localEnd": "24/08/2026, 11:51:27",
+    "utcStart": "2026-08-23T08:51:27.530Z",
+    "utcEnd": "2026-08-24T08:51:27.530Z"
+  },
+  "source": {
+    "platform": "Microsoft Clarity",
+    "transport": "MCP",
+    "analyticsTool": "query-analytics-dashboard",
+    "recordingsTool": "list-session-recordings"
+  },
+  "collectionStatus": {
+    "complete": false,
+    "abortedAt": "analytics:sessions",
+    "failedAnalytics": [
+      "sessions"
+    ],
+    "failedRecordings": [],
+    "maxAttemptsPerRequest": 3,
+    "analyticsInterRequestDelayMs": 2000,
+    "recordingInterRequestDelayMs": 5000,
+    "recordingCount": 100
+  },
+  "analytics": {
+    "sessions": {
+      "error": true,
+      "attempts": 3,
+      "message": "Invalid Clarity analytics response: An error occurred while fetching the data.",
+      "data": null,
+      "dataErrorType": null
+    }
+  },
+  "recordings": {}
+}

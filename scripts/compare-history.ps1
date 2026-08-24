@@ -208,7 +208,16 @@ if ($significantRows.Count -eq 0) {
         $statuses = @()
         if ($row.PreviousStatus -in @('WATCH', 'SIGNIFICANT')) { $statuses += "previous day: $($row.PreviousStatus)" }
         if ($row.AverageStatus -in @('WATCH', 'SIGNIFICANT')) { $statuses += "previous 7-day average: $($row.AverageStatus)" }
-        [void]$reportLines.Add('- **{0}** — {1}; previous-day change {2} ({3}); 7-day difference {4} ({5}).' -f $row.Metric, ($statuses -join ', '), (Format-Change $row.PreviousChange), (Format-Percentage $row.PreviousPercentage), (Format-Change $row.AverageChange), (Format-Percentage $row.AveragePercentage))
+       [void]$reportLines.Add(
+    ('- **{0}** - {1}; previous-day change {2} ({3}); 7-day difference {4} ({5}).' -f @(
+        $row.Metric,
+        ($statuses -join ', '),
+        (Format-Change $row.PreviousChange),
+        (Format-Percentage $row.PreviousPercentage),
+        (Format-Change $row.AverageChange),
+        (Format-Percentage $row.AveragePercentage)
+    ))
+)
     }
 }
 [void]$reportLines.Add('')

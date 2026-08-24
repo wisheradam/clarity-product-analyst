@@ -2,14 +2,14 @@
   "mcpServers": {
     "microsoft-clarity": {
       "type": "stdio",
-      "command": "powershell",
+      "command": "C:\\Program Files\\nodejs\\npx.cmd",
       "args": [
-        "-NoProfile",
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        "C:\\ai\\clarity-agent\\scripts\\start-clarity-mcp.ps1"
+        "-y",
+        "@microsoft/clarity-mcp-server"
       ],
+      "env": {
+        "CLARITY_API_TOKEN": "${CLARITY_API_TOKEN}"
+      },
       "tools": ["*"],
       "deferTools": "never",
       "disableToolCache": true
