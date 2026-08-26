@@ -1,0 +1,5782 @@
+{
+  "date": "2026-08-26",
+  "collectedAt": "2026-08-26T11:45:34.181Z",
+  "source": {
+    "platform": "Microsoft Clarity",
+    "surface": "session recordings sample endpoint used by the official Clarity MCP server",
+    "normalizedSource": "2026-08-26.json",
+    "sampleCountPerCohort": 20,
+    "requestCount": 2
+  },
+  "analysisWindow": {
+    "start": "2026-08-25T11:06:30.951Z",
+    "end": "2026-08-26T11:06:30.951Z"
+  },
+  "triggerPolicy": "Request recordings only for friction metrics whose normalized count is greater than zero.",
+  "results": [
+    {
+      "label": "dead clicks",
+      "metricCount": 13,
+      "requestedCount": 20,
+      "detectedRecordingCount": 6,
+      "suspiciousEmpty": false,
+      "filter": {
+        "deadClickPresent": true
+      },
+      "payload": [
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/a49sqk/14zm0i1",
+          "timestamp": "2026-08-25 20:53:37",
+          "totalDuration": "01 hour, 14 minutes and 09 seconds",
+          "activeDuration": "44 minutes and 29 seconds",
+          "pagesCount": 6,
+          "sessionClickCount": 65,
+          "timeline": [
+            {
+              "url": "https://innova.co/tools/aio-nomenclature-generator/",
+              "FID": "Not available",
+              "CLS": "0.28",
+              "LCP": "0.59s",
+              "score": 71,
+              "duration": 305042,
+              "referrerUrl": "https://innova.co/tools/shipping-cost-calculator/",
+              "pageLoadTime": 1672,
+              "displayTitle": "AIO Nomenclature Generator | Innova",
+              "start": "00:00",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/tools/aio-nomenclature-generator/",
+              "FID": "Not available",
+              "CLS": "0.28",
+              "LCP": "0.59s",
+              "score": 64,
+              "duration": 716614,
+              "referrerUrl": "https://innova.co/tools/shipping-cost-calculator/",
+              "pageLoadTime": 1672,
+              "displayTitle": "AIO Nomenclature Generator | Innova",
+              "start": "23:16",
+              "timelineEvents": [
+                {
+                  "text": "Back to Model Selection",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8d6z9834d",
+                  "start": "03:00:05"
+                },
+                {
+                  "text": "AIO",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5ulp4ay1n",
+                  "start": "03:00:06"
+                },
+                {
+                  "text": "Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4t2e9np70",
+                  "start": "03:00:07"
+                },
+                {
+                  "text": "HP + ▫.▫ kW Post Heater",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2pkzzokye",
+                  "start": "03:00:08"
+                },
+                {
+                  "text": "▪▫▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "e90ocy1m",
+                  "start": "03:00:17"
+                },
+                {
+                  "text": "Ceiling Ducted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2nsg40ceu",
+                  "start": "03:03:37"
+                },
+                {
+                  "text": "HP + ▫.▫ kW Post Heater",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5z7wrc1zq",
+                  "start": "03:03:38"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/tools/aio-nomenclature-generator/",
+              "FID": "Not available",
+              "CLS": "0.28",
+              "LCP": "0.59s",
+              "score": 64,
+              "duration": 228397,
+              "referrerUrl": "https://innova.co/tools/shipping-cost-calculator/",
+              "pageLoadTime": 1672,
+              "displayTitle": "AIO Nomenclature Generator | Innova",
+              "start": "35:58",
+              "timelineEvents": [
+                {
+                  "text": "Resources",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6cmvfj4lz",
+                  "start": "03:28:29"
+                },
+                {
+                  "text": "Shipping Cost Calculator",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "pwy4z35r",
+                  "start": "03:28:30"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/tools/shipping-cost-calculator/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 387568,
+              "referrerUrl": "https://innova.co/tools/aio-nomenclature-generator/",
+              "pageLoadTime": 0,
+              "displayTitle": "Shipping Cost Calculator | Innova",
+              "start": "39:46",
+              "timelineEvents": [
+                {
+                  "text": "•••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "44jnvqbi7",
+                  "start": "03:32:22"
+                },
+                {
+                  "text": "•••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "44jnvqbi7",
+                  "start": "03:32:27"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:32:28"
+                },
+                {
+                  "text": "+ Add item type",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "txzy73rg",
+                  "start": "03:32:29"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1j5e2tqrb",
+                  "start": "03:32:31"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:32:32"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1j5e2tqrb",
+                  "start": "03:32:32"
+                },
+                {
+                  "text": "•••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2a54s5zm",
+                  "start": "03:32:34"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:32:36"
+                },
+                {
+                  "text": "+ Add item type",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "txzy73rg",
+                  "start": "03:32:37"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "eoifsgdq",
+                  "start": "03:32:39"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:32:40"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "eoifsgdq",
+                  "start": "03:32:40"
+                },
+                {
+                  "text": "Heat pump — AW / AP / AFH",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "557hkkxts",
+                  "start": "03:32:42"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:32:45"
+                },
+                {
+                  "text": "Shipping Cost Calculator ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "qs9eaf1s",
+                  "start": "03:32:46"
+                },
+                {
+                  "text": "+ Add item type",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "txzy73rg",
+                  "start": "03:33:10"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3i2q9i7en",
+                  "start": "03:33:12"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:33:13"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3i2q9i7en",
+                  "start": "03:33:13"
+                },
+                {
+                  "text": "Heat pump — AW / AP / AFH",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "557hkj7ab",
+                  "start": "03:33:15"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:33:18"
+                },
+                {
+                  "text": "Calculate Shipping",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5ysn8imt4",
+                  "start": "03:33:23"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3i2q9i7en",
+                  "start": "03:33:29"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:33:30"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3i2q9i7en",
+                  "start": "03:33:30"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3i2q9i7en",
+                  "start": "03:33:33"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:33:34"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3i2q9i7en",
+                  "start": "03:33:34"
+                },
+                {
+                  "text": "+ Add item type",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "txzy73rg",
+                  "start": "03:33:35"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4hnlytl7o",
+                  "start": "03:33:36"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:33:38"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4hnlytl7o",
+                  "start": "03:33:38"
+                },
+                {
+                  "text": "•••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "68b5yuxjn",
+                  "start": "03:33:40"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "03:33:41"
+                },
+                {
+                  "text": "Calculate Shipping",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6f6dquq59",
+                  "start": "03:33:43"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "03:33:50"
+                },
+                {
+                  "text": "$92,657.25",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2g2vkwmov",
+                  "start": "03:33:51"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "03:33:51"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/tools/shipping-cost-calculator/",
+              "FID": "Not available",
+              "CLS": "0.001",
+              "LCP": "0.42s",
+              "score": 91,
+              "duration": 306039,
+              "referrerUrl": "https://innova.co/tools/aio-nomenclature-generator/",
+              "pageLoadTime": 1942,
+              "displayTitle": "Shipping Cost Calculator | Innova",
+              "start": "56:57",
+              "timelineEvents": [
+                {
+                  "text": "Shipping Cost Calculator ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4vuooatli",
+                  "start": "03:56:00"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "03:56:00"
+                },
+                {
+                  "text": "Resources",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6cmvfj4lz",
+                  "start": "04:01:00"
+                },
+                {
+                  "text": "AIO™ Nomenclature Generat",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4gsv1g4x2",
+                  "start": "04:01:03"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/tools/aio-nomenclature-generator/",
+              "FID": "Not available",
+              "CLS": "0.27",
+              "LCP": "0.64s",
+              "score": 75,
+              "duration": 726199,
+              "referrerUrl": "https://innova.co/tools/shipping-cost-calculator/",
+              "pageLoadTime": 1396,
+              "displayTitle": "AIO Nomenclature Generator | Innova",
+              "start": "01:02:03",
+              "timelineEvents": [
+                {
+                  "text": "AIO",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5ulp4ay1n",
+                  "start": "04:06:14"
+                },
+                {
+                  "text": "Ceiling Ducted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4a48sr5u0",
+                  "start": "04:06:16"
+                },
+                {
+                  "text": "HP + ▫.▫ kW Post Heater",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4tdqn4b5k",
+                  "start": "04:06:17"
+                },
+                {
+                  "text": "High Performance",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6zq3t5fu1",
+                  "start": "04:06:20"
+                },
+                {
+                  "text": "With ERV$1,880",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4don581fo",
+                  "start": "04:06:22"
+                },
+                {
+                  "text": "▪▫▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "868hkmevp",
+                  "start": "04:06:23"
+                },
+                {
+                  "text": "Continue to Select Access",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7zi2jcnvi",
+                  "start": "04:06:56"
+                },
+                {
+                  "text": "Power Cord",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1nksqk9tv",
+                  "start": "04:06:57"
+                },
+                {
+                  "text": "Back to Model Selection",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8d6z9834d",
+                  "start": "04:08:04"
+                },
+                {
+                  "text": "Continue to Select Access",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7zi2jcnvi",
+                  "start": "04:08:06"
+                },
+                {
+                  "text": "Louver",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6s8lwksv2",
+                  "start": "04:08:07"
+                },
+                {
+                  "text": "LLA/F-H ▫▪",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "1uptwu48m",
+                  "start": "04:08:18"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "04:08:18"
+                },
+                {
+                  "text": "Back to Model Selection",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8d6z9834d",
+                  "start": "04:08:35"
+                },
+                {
+                  "text": "Wall Mounted Standard",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4a49vjkxw",
+                  "start": "04:08:37"
+                },
+                {
+                  "text": "HP only",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7p0j4jeai",
+                  "start": "04:08:38"
+                },
+                {
+                  "text": "HP + ▫.▫ kW Post Heater",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5z7vojmvu",
+                  "start": "04:08:39"
+                },
+                {
+                  "text": "High Performance",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7yb3j9o5a",
+                  "start": "04:08:40"
+                },
+                {
+                  "text": "▪▫▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8689tufn6",
+                  "start": "04:08:42"
+                },
+                {
+                  "text": "▫'' (Default)",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1ox8jqd7v",
+                  "start": "04:08:44"
+                },
+                {
+                  "text": "▪▪▪▫▫▪▫▪▫-▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "614f9ukpy",
+                  "start": "04:08:46"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "04:08:47"
+                },
+                {
+                  "text": "Continue to Select Access",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7zi2jcnvi",
+                  "start": "04:09:57"
+                },
+                {
+                  "text": "▪▪▪▫-▫▪▪▪▪▪ louver assemb",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6x40ppkj6",
+                  "start": "04:10:03"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "04:10:03"
+                },
+                {
+                  "text": "Power Cord",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "74cpwegbs",
+                  "start": "04:11:26"
+                },
+                {
+                  "text": "Accessory",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "74d4cowhz",
+                  "start": "04:11:38"
+                },
+                {
+                  "text": "▪▪▪▪▪▫▫-▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5n3mcv6mt",
+                  "start": "04:11:41"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "04:11:41"
+                },
+                {
+                  "text": "Controller",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "74d8hnc2y",
+                  "start": "04:12:23"
+                },
+                {
+                  "text": "Add",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "fuhjp0qk",
+                  "start": "04:13:12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/1860592/1m3967u",
+          "timestamp": "2026-08-25 20:36:53",
+          "totalDuration": "01 hour, 28 minutes and 27 seconds",
+          "activeDuration": "01 hour, 28 minutes and 27 seconds",
+          "pagesCount": 1,
+          "sessionClickCount": 0,
+          "timeline": [
+            {
+              "url": null,
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 2647404,
+              "referrerUrl": null,
+              "pageLoadTime": 0,
+              "displayTitle": null,
+              "start": "00:00",
+              "timelineEvents": []
+            },
+            {
+              "url": null,
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 2647404,
+              "referrerUrl": null,
+              "pageLoadTime": 0,
+              "displayTitle": null,
+              "start": "44:07",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/contact-us/locations/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "1.3s",
+              "score": 0,
+              "duration": 12849,
+              "referrerUrl": null,
+              "pageLoadTime": 1858,
+              "displayTitle": "Locations | Showrooms",
+              "start": "01:28:14",
+              "timelineEvents": [
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "48j7tj4ck",
+                  "start": "03:15:03"
+                },
+                {
+                  "text": "▫▫▫ W. ▫▫▪▪ StreetNew Yor",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "61wsz3t7c",
+                  "start": "03:15:05"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/1iw02po/1b3zf09",
+          "timestamp": "2026-08-25 18:44:41",
+          "totalDuration": "28 minutes and 31 seconds",
+          "activeDuration": "25 minutes and 27 seconds",
+          "pagesCount": 2,
+          "sessionClickCount": 7,
+          "timeline": [
+            {
+              "url": "https://innova.co/innovacon-2026/",
+              "FID": "Not available",
+              "CLS": "0.002",
+              "LCP": "1.3s",
+              "score": 0,
+              "duration": 358239,
+              "referrerUrl": null,
+              "pageLoadTime": 1748,
+              "displayTitle": "INNOVACON 2026 | Innova",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "First name * Last name * ",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "1a6es0qh",
+                  "start": "00:32"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7808kzsrn",
+                  "start": "00:39"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7808kzsrn",
+                  "start": "00:40"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4vezhusne",
+                  "start": "00:47"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4vezhusne",
+                  "start": "00:50"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/innovacon-2026/",
+              "FID": "Not available",
+              "CLS": "0.002",
+              "LCP": "1.3s",
+              "score": 0,
+              "duration": 405624,
+              "referrerUrl": null,
+              "pageLoadTime": 1748,
+              "displayTitle": "INNOVACON 2026 | Innova",
+              "start": "07:30",
+              "timelineEvents": [
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2dcrxw058",
+                  "start": "13:32"
+                },
+                {
+                  "text": "Confirm Attendance Please",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "v9ntdsw",
+                  "start": "13:33"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/innovacon-2026/",
+              "FID": "Not available",
+              "CLS": "0.002",
+              "LCP": "1.3s",
+              "score": 0,
+              "duration": 358239,
+              "referrerUrl": null,
+              "pageLoadTime": 1748,
+              "displayTitle": "INNOVACON 2026 | Innova",
+              "start": "14:15",
+              "timelineEvents": [
+                {
+                  "text": "First name * Last name * ",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "1a6es0qh",
+                  "start": "02:33:47"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7808kzsrn",
+                  "start": "02:33:53"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7808kzsrn",
+                  "start": "02:33:54"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4vezhusne",
+                  "start": "02:34:02"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4vezhusne",
+                  "start": "02:34:05"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/innovacon-2026/",
+              "FID": "Not available",
+              "CLS": "0.002",
+              "LCP": "1.3s",
+              "score": 0,
+              "duration": 405624,
+              "referrerUrl": null,
+              "pageLoadTime": 1748,
+              "displayTitle": "INNOVACON 2026 | Innova",
+              "start": "21:45",
+              "timelineEvents": [
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2dcrxw058",
+                  "start": "02:46:46"
+                },
+                {
+                  "text": "Confirm Attendance Please",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "v9ntdsw",
+                  "start": "02:46:47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/1lwagn7/1xqia15",
+          "timestamp": "2026-08-25 18:30:25",
+          "totalDuration": "01 hour and 14 seconds",
+          "activeDuration": "42 minutes and 59 seconds",
+          "pagesCount": 9,
+          "sessionClickCount": 21,
+          "timeline": [
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 320966,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3tfn01m51",
+                  "start": "01:47:07"
+                },
+                {
+                  "text": "Installation Guide",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7g3quuil7",
+                  "start": "01:47:12"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/louvers/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 466768,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "Louvers | Flanged, Concealed & Ceiling Mounted",
+              "start": "05:32",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/louvers/",
+              "FID": "Not available",
+              "CLS": "0.63",
+              "LCP": "0.89s",
+              "score": 0,
+              "duration": 2687,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 3537,
+              "displayTitle": "Louvers | Flanged, Concealed & Ceiling Mounted",
+              "start": "17:50",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/louvers/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 355272,
+              "referrerUrl": null,
+              "pageLoadTime": 0,
+              "displayTitle": "Louvers | Flanged, Concealed & Ceiling Mounted",
+              "start": "26:14",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "11y52mqvz",
+                  "start": "02:26:22"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "11y52mqvz",
+                  "start": "02:26:23"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "11y52mqvz",
+                  "start": "02:26:24"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "11y52mqvz",
+                  "start": "02:26:24"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/louvers/",
+              "FID": "Not available",
+              "CLS": "0.38",
+              "LCP": "1.1s",
+              "score": 0,
+              "duration": 555523,
+              "referrerUrl": null,
+              "pageLoadTime": 5087,
+              "displayTitle": "Louvers | Flanged, Concealed & Ceiling Mounted",
+              "start": "36:12",
+              "timelineEvents": [
+                {
+                  "text": "Technical Resources",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5rmgarfxr",
+                  "start": "02:51:27"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/documentation/technical-resources/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 223029,
+              "referrerUrl": "https://innova.co/louvers/",
+              "pageLoadTime": 0,
+              "displayTitle": "Technical Resources | Innova",
+              "start": "45:32",
+              "timelineEvents": [
+                {
+                  "text": "Ephoca is now INNOVA. Som",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "8gxnfh7ra",
+                  "start": "03:00:51"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1gcvfb82",
+                  "start": "03:00:53"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6vkjkx1mh",
+                  "start": "03:00:55"
+                },
+                {
+                  "text": "Part Details",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5myau7pd9",
+                  "start": "03:01:12"
+                },
+                {
+                  "text": "Product Drawings",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5n8g28cg7",
+                  "start": "03:01:43"
+                },
+                {
+                  "text": "LLA/S-S Submittal",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "53hk0hiea",
+                  "start": "03:02:04"
+                },
+                {
+                  "text": "LLA/S-H Submittal",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6mue8ub7h",
+                  "start": "03:02:24"
+                },
+                {
+                  "text": "Installation Instructions",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "67l8fzcw0",
+                  "start": "03:02:39"
+                },
+                {
+                  "text": "Submittals",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "67lfxh4d9",
+                  "start": "03:03:51"
+                },
+                {
+                  "text": "••••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "9gm8sv3n",
+                  "start": "03:04:29"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/contact-us/?card=3",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 176680,
+              "referrerUrl": "https://innova.co/documentation/technical-resources/",
+              "pageLoadTime": 0,
+              "displayTitle": "Contact Us | Innova",
+              "start": "49:19",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/louvers/",
+              "FID": "Not available",
+              "CLS": "0.076",
+              "LCP": "1s",
+              "score": 0,
+              "duration": 303847,
+              "referrerUrl": null,
+              "pageLoadTime": 4441,
+              "displayTitle": "Louvers | Flanged, Concealed & Ceiling Mounted",
+              "start": "52:15",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/documentation/technical-resources/",
+              "FID": "Not available",
+              "CLS": "0.009",
+              "LCP": "0.75s",
+              "score": 75,
+              "duration": 175184,
+              "referrerUrl": "https://innova.co/louvers/",
+              "pageLoadTime": 5654,
+              "displayTitle": "Technical Resources | Innova",
+              "start": "57:19",
+              "timelineEvents": [
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "2zrmp4772",
+                  "start": "04:21:33"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "2zrmp4772",
+                  "start": "04:21:33"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3esplprg2",
+                  "start": "04:21:36"
+                },
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8ruf8yw1y",
+                  "start": "04:21:40"
+                },
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8rvmdc85l",
+                  "start": "04:21:48"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/wtp32y/1mn51r7",
+          "timestamp": "2026-08-25 17:29:45",
+          "totalDuration": "25 seconds",
+          "activeDuration": "25 seconds",
+          "pagesCount": 2,
+          "sessionClickCount": 8,
+          "timeline": [
+            {
+              "url": "https://innova.co/aio/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "2.1s",
+              "score": 0,
+              "duration": 7044,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 2517,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "izwta3u4",
+                  "start": "01:46:17"
+                },
+                {
+                  "text": "Resources",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "214gvupib",
+                  "start": "01:46:19"
+                },
+                {
+                  "text": "Documentation",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43e3ggnsb",
+                  "start": "01:46:21"
+                },
+                {
+                  "text": "Technical Resources",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1r2r9lh3k",
+                  "start": "01:46:23"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/documentation/technical-resources/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.71s",
+              "score": 0,
+              "duration": 18871,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 1111,
+              "displayTitle": "Technical Resources | Innova",
+              "start": "00:07",
+              "timelineEvents": [
+                {
+                  "text": "Ephoca is now INNOVA. Som",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "25wvyzhjz",
+                  "start": "01:46:33"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2f1shdk0j",
+                  "start": "01:46:34"
+                },
+                {
+                  "text": "Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5x0xj7odl",
+                  "start": "01:46:35"
+                },
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "51xdrhqtm",
+                  "start": "01:46:40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/a49sqk/hxmprs",
+          "timestamp": "2026-08-25 17:26:01",
+          "totalDuration": "05 minutes and 17 seconds",
+          "activeDuration": "05 minutes and 17 seconds",
+          "pagesCount": 1,
+          "sessionClickCount": 11,
+          "timeline": [
+            {
+              "url": "https://innova.co/tools/aio-nomenclature-generator/",
+              "FID": "Not available",
+              "CLS": "0.28",
+              "LCP": "0.59s",
+              "score": 71,
+              "duration": 317495,
+              "referrerUrl": "https://innova.co/tools/shipping-cost-calculator/",
+              "pageLoadTime": 1672,
+              "displayTitle": "AIO Nomenclature Generator | Innova",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "AIO",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3bpx5ezfk",
+                  "start": "56:52"
+                },
+                {
+                  "text": "Wall Mounted Standard",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6ihoo6jl3",
+                  "start": "56:53"
+                },
+                {
+                  "text": "HP only",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "37iiaz31q",
+                  "start": "56:54"
+                },
+                {
+                  "text": "Energy Star",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "77azf8btt",
+                  "start": "56:54"
+                },
+                {
+                  "text": "Without ERV",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4don581fy",
+                  "start": "56:55"
+                },
+                {
+                  "text": "▪▫▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "868hkmevp",
+                  "start": "56:55"
+                },
+                {
+                  "text": "▫▫▫▪",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1jyjb2dhp",
+                  "start": "56:56"
+                },
+                {
+                  "text": "▫'' (Default)",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1ow7xdxwv",
+                  "start": "56:59"
+                },
+                {
+                  "text": "Continue to Select Access",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7zi2jcnvi",
+                  "start": "57:00"
+                },
+                {
+                  "text": "Controller",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "plz08v48",
+                  "start": "57:02"
+                },
+                {
+                  "text": "▪▪▪▫▫▫▪▪▪▫ wall-mounted c",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "dcmvnzxh",
+                  "start": "57:07"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "57:07"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "quick backs",
+      "metricCount": 96,
+      "requestedCount": 20,
+      "detectedRecordingCount": 20,
+      "suspiciousEmpty": false,
+      "filter": {
+        "quickbackClickPresent": true
+      },
+      "payload": [
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/5w9w0c/136fiht",
+          "timestamp": "2026-08-26 06:23:55",
+          "totalDuration": "59 seconds",
+          "activeDuration": "59 seconds",
+          "pagesCount": 2,
+          "sessionClickCount": 2,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.33",
+              "LCP": "1s",
+              "score": 0,
+              "duration": 12372,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 2285,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2f1shdk0j",
+                  "start": "41:26"
+                },
+                {
+                  "text": "Vancouver Tech & Training",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2i1o3mklm",
+                  "start": "41:36"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/contact-us/locations/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.28s",
+              "score": 0,
+              "duration": 17546,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 892,
+              "displayTitle": "Locations | Showrooms",
+              "start": "00:12",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.33",
+              "LCP": "1s",
+              "score": 0,
+              "duration": 12372,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 2285,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:29",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2f1shdk0j",
+                  "start": "56:41"
+                },
+                {
+                  "text": "Vancouver Tech & Training",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2i1o3mklm",
+                  "start": "56:52"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/contact-us/locations/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.28s",
+              "score": 0,
+              "duration": 17546,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 892,
+              "displayTitle": "Locations | Showrooms",
+              "start": "00:42",
+              "timelineEvents": []
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/eagrnl/n2ffia",
+          "timestamp": "2026-08-26 04:58:07",
+          "totalDuration": "20 minutes and 12 seconds",
+          "activeDuration": "14 minutes and 48 seconds",
+          "pagesCount": 11,
+          "sessionClickCount": 18,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.85s",
+              "score": 0,
+              "duration": 13552,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 6339,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:24:32"
+                },
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y9mlwaq",
+                  "start": "02:24:43"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.4s",
+              "score": 0,
+              "duration": 20760,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 909,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "00:13",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:25:14"
+                },
+                {
+                  "text": "AIO Vertical Stack",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1hpo4s5uo",
+                  "start": "02:25:17"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/vertical-stack/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.4s",
+              "score": 0,
+              "duration": 184004,
+              "referrerUrl": "https://innova.co/aio/wall-mounted/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Vertical Stack | No Outdoor Unit | Heat Pump",
+              "start": "00:34",
+              "timelineEvents": [
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2vcwikdmb",
+                  "start": "02:26:53"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:28:35"
+                },
+                {
+                  "text": "AIO Ceiling Suspended",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y55p2xz",
+                  "start": "02:28:42"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-suspended/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.56s",
+              "score": 0,
+              "duration": 2770,
+              "referrerUrl": "https://innova.co/aio/vertical-stack/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Ceiling Suspended | Innova Heat Pumps",
+              "start": "03:38",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/aio/vertical-stack/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.4s",
+              "score": 0,
+              "duration": 2639,
+              "referrerUrl": "https://innova.co/aio/wall-mounted/",
+              "pageLoadTime": 2076,
+              "displayTitle": "AIO Vertical Stack | No Outdoor Unit | Heat Pump",
+              "start": "03:41",
+              "timelineEvents": [
+                {
+                  "text": "AIO Floor Standing",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1gprtwv2u",
+                  "start": "02:31:54"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/floor-standing/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.21s",
+              "score": 0,
+              "duration": 17980,
+              "referrerUrl": "https://innova.co/aio/vertical-stack/",
+              "pageLoadTime": 664,
+              "displayTitle": "AIO Floor Standing | Compact and Efficient",
+              "start": "03:43",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:32:12"
+                },
+                {
+                  "text": "AIO Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yc45kh1",
+                  "start": "02:32:15"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.26s",
+              "score": 0,
+              "duration": 339307,
+              "referrerUrl": "https://innova.co/aio/floor-standing/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "04:01",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.26s",
+              "score": 0,
+              "duration": 2356,
+              "referrerUrl": "https://innova.co/aio/floor-standing/",
+              "pageLoadTime": 1629,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "15:05",
+              "timelineEvents": [
+                {
+                  "text": "Home",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3uh5x9b2a",
+                  "start": "02:49:18"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.43s",
+              "score": 0,
+              "duration": 279421,
+              "referrerUrl": "https://innova.co/aio/wall-mounted-pro/",
+              "pageLoadTime": 866,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "15:08",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:53:51"
+                },
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y9mlwaq",
+                  "start": "02:54:00"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.43s",
+              "score": 0,
+              "duration": 18141,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 1495,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "19:47",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "743h9n6uc",
+                  "start": "02:58:54"
+                },
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y9mlwaq",
+                  "start": "02:58:58"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.34s",
+              "score": 0,
+              "duration": 7162,
+              "referrerUrl": "https://innova.co/aio/wall-mounted/",
+              "pageLoadTime": 778,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "20:05",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:59:17"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:59:17"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Dead click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:59:17"
+                },
+                {
+                  "text": "All-In-One Heat Pumps",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yr7xt34",
+                  "start": "02:59:23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/14r7tzq/s2lsqz",
+          "timestamp": "2026-08-26 04:38:29",
+          "totalDuration": "11 minutes and 05 seconds",
+          "activeDuration": "11 minutes and 05 seconds",
+          "pagesCount": 4,
+          "sessionClickCount": 7,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 5409,
+              "referrerUrl": "https://ephoca.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Learn More",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "k3vdzwhz",
+                  "start": "09:21"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/stone/",
+              "FID": "Not available",
+              "CLS": "0.007",
+              "LCP": "1.6s",
+              "score": 0,
+              "duration": 56631,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 1924,
+              "displayTitle": "STØNE | Air to Water Multi Zone Heat Pumps",
+              "start": "00:05",
+              "timelineEvents": [
+                {
+                  "text": "Home",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1zsuc6re7",
+                  "start": "10:22"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 19734,
+              "referrerUrl": "https://innova.co/stone/",
+              "pageLoadTime": 0,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "01:02",
+              "timelineEvents": [
+                {
+                  "text": "Resources",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t20wu0rc",
+                  "start": "11:34"
+                },
+                {
+                  "text": "Brochures",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "76po6ey40",
+                  "start": "11:40"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/documentation/brochures/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 583728,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 0,
+              "displayTitle": "Brochures | Single Package Systems | Split Systems",
+              "start": "01:21",
+              "timelineEvents": [
+                {
+                  "text": "View Brochure",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "439f3mr01",
+                  "start": "12:09"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2jmtfjkv9",
+                  "start": "15:49"
+                },
+                {
+                  "text": "View Brochure",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "438w4d1bi",
+                  "start": "15:50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/14el078/8nr8fn",
+          "timestamp": "2026-08-26 02:03:40",
+          "totalDuration": "01 minute and 39 seconds",
+          "activeDuration": "01 minute and 39 seconds",
+          "pagesCount": 4,
+          "sessionClickCount": 22,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 9388,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Accessories",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3ff1son",
+                  "start": "07:39"
+                },
+                {
+                  "text": "Advanced Touchscreen Cont",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3xtxi7ij2",
+                  "start": "07:47"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/controllers/#advanced-touchscreen-controller",
+              "FID": "Not available",
+              "CLS": "0.38",
+              "LCP": "0.55s",
+              "score": 63,
+              "duration": 56646,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 1811,
+              "displayTitle": "Controllers | AIO Heat Pump Accessories",
+              "start": "00:09",
+              "timelineEvents": [
+                {
+                  "text": "Accessories",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8akjtc6ax",
+                  "start": "08:10"
+                },
+                {
+                  "text": "Wireless Wall Mounted The",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5t54zcz3",
+                  "start": "08:13"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "08:13"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "08:13"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "08:13"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "08:13"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3hbfiror2",
+                  "start": "08:16"
+                },
+                {
+                  "text": "Accessories",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8akjtc6ax",
+                  "start": "08:28"
+                },
+                {
+                  "text": "Wireless Energy Managemen",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sdysd0z",
+                  "start": "08:29"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "08:29"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "08:29"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "08:29"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "08:29"
+                },
+                {
+                  "text": "The wireless wall-mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8gs9qzv8e",
+                  "start": "08:41"
+                },
+                {
+                  "text": "Accessories",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8akjtc6ax",
+                  "start": "08:44"
+                },
+                {
+                  "text": "Home",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2grp4n9px",
+                  "start": "08:53"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.25",
+              "LCP": "0.46s",
+              "score": 0,
+              "duration": 25572,
+              "referrerUrl": "https://innova.co/controllers/",
+              "pageLoadTime": 1732,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "01:06",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "yyzqfb2c",
+                  "start": "10:15"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.32s",
+              "score": 77,
+              "duration": 7763,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 1394,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "01:31",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "10:42"
+                },
+                {
+                  "text": "Accessories",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3ff1son",
+                  "start": "10:44"
+                },
+                {
+                  "text": "Resources",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t20wu0rc",
+                  "start": "10:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/kvdwbc/4a70hx",
+          "timestamp": "2026-08-26 00:54:32",
+          "totalDuration": "01 minute and 19 seconds",
+          "activeDuration": "01 minute and 19 seconds",
+          "pagesCount": 5,
+          "sessionClickCount": 4,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.59s",
+              "score": 0,
+              "duration": 19342,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 1138,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Allow all cookies",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7zfybxmz4",
+                  "start": "57:11"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3esplprg2",
+                  "start": "57:12"
+                },
+                {
+                  "text": "Learn More",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3tds2n15u",
+                  "start": "57:30"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/single-package-systems/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.14s",
+              "score": 0,
+              "duration": 34803,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 731,
+              "displayTitle": "Single Package Systems | Innova",
+              "start": "00:19",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.59s",
+              "score": 0,
+              "duration": 12397,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 1138,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:54",
+              "timelineEvents": [
+                {
+                  "text": "Learn More",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8dvhwcqzj",
+                  "start": "59:11"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/nextgen-pthp/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.3s",
+              "score": 0,
+              "duration": 11271,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 668,
+              "displayTitle": "AIO NextGen PTHP | Innova",
+              "start": "01:06",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0.59s",
+              "score": 0,
+              "duration": 1526,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 1138,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "01:17",
+              "timelineEvents": []
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/1v5926b/1kwh515",
+          "timestamp": "2026-08-25 23:28:51",
+          "totalDuration": "10 minutes and 44 seconds",
+          "activeDuration": "05 minutes and 01 second",
+          "pagesCount": 5,
+          "sessionClickCount": 4,
+          "timeline": [
+            {
+              "url": "https://innova.co/projects/",
+              "FID": "Not available",
+              "CLS": "0.02",
+              "LCP": "0.78s",
+              "score": 0,
+              "duration": 5574,
+              "referrerUrl": "https://innova.co/aio/wall-mounted-pro/",
+              "pageLoadTime": 723,
+              "displayTitle": "Projects",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "51:18"
+                },
+                {
+                  "text": "AIO™",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3m2a888c7",
+                  "start": "51:20"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 51675,
+              "referrerUrl": "https://innova.co/projects/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "00:05",
+              "timelineEvents": [
+                {
+                  "text": "Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4ma6i3jnj",
+                  "start": "52:17"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 237954,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "00:57",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.17s",
+              "score": 0,
+              "duration": 4997,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 1236,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "04:55",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 1555,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "10:43",
+              "timelineEvents": [
+                {
+                  "text": "Projects",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "76159jp9b",
+                  "start": "01:39:08"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/o3v0y7/nop5ga",
+          "timestamp": "2026-08-25 22:05:02",
+          "totalDuration": "07 minutes and 37 seconds",
+          "activeDuration": "05 minutes and 45 seconds",
+          "pagesCount": 4,
+          "sessionClickCount": 5,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.001",
+              "LCP": "2.1s",
+              "score": 0,
+              "duration": 10346,
+              "referrerUrl": "https://ephoca.com/",
+              "pageLoadTime": 2045,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "01:11:11"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 18776,
+              "referrerUrl": "https://ephoca.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:13",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3hbfiror2",
+                  "start": "01:11:44"
+                },
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1rxwjp59a",
+                  "start": "01:11:51"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.66",
+              "LCP": "0.24s",
+              "score": 0,
+              "duration": 2624,
+              "referrerUrl": "https://ephoca.com/",
+              "pageLoadTime": 1511,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "02:21",
+              "timelineEvents": [
+                {
+                  "text": "AIO Vertical Stack",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5msrmnny6",
+                  "start": "01:14:01"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/vertical-stack/",
+              "FID": "Not available",
+              "CLS": "0.18",
+              "LCP": "0.17s",
+              "score": 0,
+              "duration": 313537,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 1493,
+              "displayTitle": "AIO Vertical Stack | No Outdoor Unit | Heat Pump",
+              "start": "02:23",
+              "timelineEvents": [
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6xiaxpimm",
+                  "start": "01:14:15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/1y7f1bo/pmcpcz",
+          "timestamp": "2026-08-25 22:03:34",
+          "totalDuration": "25 minutes and 56 seconds",
+          "activeDuration": "20 minutes and 46 seconds",
+          "pagesCount": 10,
+          "sessionClickCount": 20,
+          "timeline": [
+            {
+              "url": "https://innova.co/stone/compact/",
+              "FID": "Not available",
+              "CLS": "0.033",
+              "LCP": "0.26s",
+              "score": 0,
+              "duration": 14693,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 187,
+              "displayTitle": "STØNE Compact | Innova",
+              "start": "00:00",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0.082",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 22045,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 371,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "00:18",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "21:14"
+                },
+                {
+                  "text": "STØNE Pro Split",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5gx1z5ze9",
+                  "start": "21:17"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/stone/pro-systems/",
+              "FID": "Not available",
+              "CLS": "0.05",
+              "LCP": "0.35s",
+              "score": 0,
+              "duration": 6937,
+              "referrerUrl": "https://innova.co/aio/wall-mounted-pro/",
+              "pageLoadTime": 311,
+              "displayTitle": "STØNE Pro | Heat Pumps",
+              "start": "00:40",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "21:44"
+                },
+                {
+                  "text": "OSMO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1gdeo9xs0",
+                  "start": "21:46"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/osmo/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0.23",
+              "LCP": "0.41s",
+              "score": 0,
+              "duration": 79630,
+              "referrerUrl": "https://innova.co/stone/pro-systems/",
+              "pageLoadTime": 348,
+              "displayTitle": "OSMO Wall Mounted | Fan Coils",
+              "start": "00:46",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4ypborukz",
+                  "start": "21:59"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "23:03"
+                },
+                {
+                  "text": "Loop Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5yuqwbqm7",
+                  "start": "23:13"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/loop/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0.15",
+              "LCP": "0.41s",
+              "score": 0,
+              "duration": 6521,
+              "referrerUrl": "https://innova.co/osmo/wall-mounted/",
+              "pageLoadTime": 353,
+              "displayTitle": "LOOP Wall Mounted | Next Gen Water-Source Heat Pump",
+              "start": "02:06",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "24:37"
+                },
+                {
+                  "text": "▫ Nozzles",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2og9ywk3m",
+                  "start": "24:39"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/okki/ai-driven-jets/",
+              "FID": "Not available",
+              "CLS": "0.091",
+              "LCP": "0.38s",
+              "score": 0,
+              "duration": 50433,
+              "referrerUrl": "https://innova.co/loop/wall-mounted/",
+              "pageLoadTime": 317,
+              "displayTitle": "OKKI AI-Driven Jets | Heat Pumps",
+              "start": "02:13",
+              "timelineEvents": [
+                {
+                  "text": "Heating - Maintenance wit",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2zw27fvwu",
+                  "start": "25:07"
+                },
+                {
+                  "text": "Cooling - Pre-cooling and",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5277jsrwp",
+                  "start": "25:09"
+                },
+                {
+                  "text": "Heating - Preheating and ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "jv23b873",
+                  "start": "25:10"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "25:30"
+                },
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y9mlwaq",
+                  "start": "25:36"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0.11",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 10256,
+              "referrerUrl": "https://innova.co/okki/ai-driven-jets/",
+              "pageLoadTime": 599,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "03:03",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "26:35"
+                },
+                {
+                  "text": "AIO Ceiling Suspended",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y55p2xz",
+                  "start": "26:37"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-suspended/",
+              "FID": "Not available",
+              "CLS": "0.08",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 81574,
+              "referrerUrl": "https://innova.co/aio/wall-mounted/",
+              "pageLoadTime": 491,
+              "displayTitle": "AIO Ceiling Suspended | Innova Heat Pumps",
+              "start": "03:13",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "27:57"
+                },
+                {
+                  "text": "AIO Ceiling Ducted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yfi1g8o",
+                  "start": "28:09"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-ducted/",
+              "FID": "Not available",
+              "CLS": "0.005",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 335200,
+              "referrerUrl": "https://innova.co/aio/ceiling-suspended/",
+              "pageLoadTime": 475,
+              "displayTitle": "AIO Ceiling Ducted | No Outdoor Unit",
+              "start": "04:35",
+              "timelineEvents": [
+                {
+                  "text": "Key FeaturesCompact unitE",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7u4sw61az",
+                  "start": "29:48"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "29:49"
+                },
+                {
+                  "text": "Airflow AIO Ceiling Ducte",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "12p2kh89w",
+                  "start": "29:50"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "29:50"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-ducted/",
+              "FID": "Not available",
+              "CLS": "0.005",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 16052,
+              "referrerUrl": "https://innova.co/aio/ceiling-suspended/",
+              "pageLoadTime": 475,
+              "displayTitle": "AIO Ceiling Ducted | No Outdoor Unit",
+              "start": "12:42",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/stone/compact/",
+              "FID": "Not available",
+              "CLS": "0.033",
+              "LCP": "0.26s",
+              "score": 0,
+              "duration": 14693,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 187,
+              "displayTitle": "STØNE Compact | Innova",
+              "start": "12:58",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0.082",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 22045,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 371,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "13:16",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "44:36"
+                },
+                {
+                  "text": "STØNE Pro Split",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5gx1z5ze9",
+                  "start": "44:39"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/stone/pro-systems/",
+              "FID": "Not available",
+              "CLS": "0.05",
+              "LCP": "0.35s",
+              "score": 0,
+              "duration": 6937,
+              "referrerUrl": "https://innova.co/aio/wall-mounted-pro/",
+              "pageLoadTime": 311,
+              "displayTitle": "STØNE Pro | Heat Pumps",
+              "start": "13:38",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "45:06"
+                },
+                {
+                  "text": "OSMO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1gdeo9xs0",
+                  "start": "45:08"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/osmo/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0.23",
+              "LCP": "0.41s",
+              "score": 0,
+              "duration": 79630,
+              "referrerUrl": "https://innova.co/stone/pro-systems/",
+              "pageLoadTime": 348,
+              "displayTitle": "OSMO Wall Mounted | Fan Coils",
+              "start": "13:45",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4ypborukz",
+                  "start": "45:21"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "46:24"
+                },
+                {
+                  "text": "Loop Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5yuqwbqm7",
+                  "start": "46:35"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/loop/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0.15",
+              "LCP": "0.41s",
+              "score": 0,
+              "duration": 6521,
+              "referrerUrl": "https://innova.co/osmo/wall-mounted/",
+              "pageLoadTime": 353,
+              "displayTitle": "LOOP Wall Mounted | Next Gen Water-Source Heat Pump",
+              "start": "15:05",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "47:59"
+                },
+                {
+                  "text": "▫ Nozzles",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2og9ywk3m",
+                  "start": "48:01"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/okki/ai-driven-jets/",
+              "FID": "Not available",
+              "CLS": "0.091",
+              "LCP": "0.38s",
+              "score": 0,
+              "duration": 50433,
+              "referrerUrl": "https://innova.co/loop/wall-mounted/",
+              "pageLoadTime": 317,
+              "displayTitle": "OKKI AI-Driven Jets | Heat Pumps",
+              "start": "15:11",
+              "timelineEvents": [
+                {
+                  "text": "Heating - Maintenance wit",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2zw27fvwu",
+                  "start": "48:28"
+                },
+                {
+                  "text": "Cooling - Pre-cooling and",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5277jsrwp",
+                  "start": "48:31"
+                },
+                {
+                  "text": "Heating - Preheating and ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "jv23b873",
+                  "start": "48:32"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "48:52"
+                },
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y9mlwaq",
+                  "start": "48:58"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0.11",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 10256,
+              "referrerUrl": "https://innova.co/okki/ai-driven-jets/",
+              "pageLoadTime": 599,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "16:02",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "49:56"
+                },
+                {
+                  "text": "AIO Ceiling Suspended",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y55p2xz",
+                  "start": "49:58"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-suspended/",
+              "FID": "Not available",
+              "CLS": "0.08",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 81574,
+              "referrerUrl": "https://innova.co/aio/wall-mounted/",
+              "pageLoadTime": 491,
+              "displayTitle": "AIO Ceiling Suspended | Innova Heat Pumps",
+              "start": "16:12",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "51:19"
+                },
+                {
+                  "text": "AIO Ceiling Ducted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yfi1g8o",
+                  "start": "51:30"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-ducted/",
+              "FID": "Not available",
+              "CLS": "0.005",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 335200,
+              "referrerUrl": "https://innova.co/aio/ceiling-suspended/",
+              "pageLoadTime": 475,
+              "displayTitle": "AIO Ceiling Ducted | No Outdoor Unit",
+              "start": "17:33",
+              "timelineEvents": [
+                {
+                  "text": "Key FeaturesCompact unitE",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7u4sw61az",
+                  "start": "53:10"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "53:10"
+                },
+                {
+                  "text": "Airflow AIO Ceiling Ducte",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "12p2kh89w",
+                  "start": "53:11"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "53:12"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-ducted/",
+              "FID": "Not available",
+              "CLS": "0.005",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 16052,
+              "referrerUrl": "https://innova.co/aio/ceiling-suspended/",
+              "pageLoadTime": 475,
+              "displayTitle": "AIO Ceiling Ducted | No Outdoor Unit",
+              "start": "25:40",
+              "timelineEvents": []
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/148ailc/ltbk5f",
+          "timestamp": "2026-08-25 21:56:34",
+          "totalDuration": "20 seconds",
+          "activeDuration": "20 seconds",
+          "pagesCount": 2,
+          "sessionClickCount": 5,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.33",
+              "LCP": "0.65s",
+              "score": 0,
+              "duration": 10899,
+              "referrerUrl": "https://ephoca.com/",
+              "pageLoadTime": 1020,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Allow all cookies",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7zfybxmz4",
+                  "start": "01:10:48"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3esplprg2",
+                  "start": "01:10:49"
+                },
+                {
+                  "text": "Wall Mounted Quiet Perfor",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3n47zhw7t",
+                  "start": "01:10:58"
+                },
+                {
+                  "text": "Learn More",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "qvfc8vdw",
+                  "start": "01:10:58"
+                },
+                {
+                  "text": "Learn More",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3tebem6ar",
+                  "start": "01:10:59"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.15s",
+              "score": 0,
+              "duration": 9811,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 712,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "00:10",
+              "timelineEvents": []
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/13c9cra/d8i1fm",
+          "timestamp": "2026-08-25 21:56:03",
+          "totalDuration": "07 minutes and 30 seconds",
+          "activeDuration": "07 minutes and 30 seconds",
+          "pagesCount": 3,
+          "sessionClickCount": 2,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 28641,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 1302,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3esplprg2",
+                  "start": "02:50:02"
+                },
+                {
+                  "text": "Learn More",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "k2evw3ns",
+                  "start": "02:50:22"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/loop/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 17483,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 1301,
+              "displayTitle": "LOOP | Water-Source Heat Pumps",
+              "start": "00:28",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 404668,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 1302,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:46",
+              "timelineEvents": []
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/10bbhpi/5976un",
+          "timestamp": "2026-08-25 21:36:48",
+          "totalDuration": "50 seconds",
+          "activeDuration": "31 seconds",
+          "pagesCount": 4,
+          "sessionClickCount": 1,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.66",
+              "LCP": "2.5s",
+              "score": 53,
+              "duration": 16423,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 3654,
+              "displayTitle": "INNOVA: Bombas de calor de última generación",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2f1shdk0j",
+                  "start": "56:42"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 3146,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "INNOVA: Bombas de calor de última generación",
+              "start": "00:35",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/split-systems/",
+              "FID": "Not available",
+              "CLS": "0.021",
+              "LCP": "1.2s",
+              "score": 0,
+              "duration": 5566,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 4324,
+              "displayTitle": "Sistemas Split | Bombas de Calor Innova",
+              "start": "00:38",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "1.2s",
+              "score": 89,
+              "duration": 6405,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 4046,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:43",
+              "timelineEvents": []
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/1hankxu/106z15",
+          "timestamp": "2026-08-25 21:19:09",
+          "totalDuration": "28 minutes and 32 seconds",
+          "activeDuration": "12 minutes and 17 seconds",
+          "pagesCount": 7,
+          "sessionClickCount": 19,
+          "timeline": [
+            {
+              "url": "https://innova.co/documentation/technical-resources/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.3s",
+              "score": 0,
+              "duration": 4447,
+              "referrerUrl": "https://ntp.msn.com/",
+              "pageLoadTime": 776,
+              "displayTitle": "Technical Resources | Innova",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5xydow7rd",
+                  "start": "58:33"
+                },
+                {
+                  "text": "AIO Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "19tg4pqlm",
+                  "start": "58:35"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0.047",
+              "LCP": "0.21s",
+              "score": 0,
+              "duration": 4310,
+              "referrerUrl": "https://innova.co/documentation/technical-resources/",
+              "pageLoadTime": 663,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "00:04",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "58:42"
+                },
+                {
+                  "text": "AIO Ceiling Ducted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yfi1g8o",
+                  "start": "58:43"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-ducted/",
+              "FID": "Not available",
+              "CLS": "0.049",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 378749,
+              "referrerUrl": "https://innova.co/aio/wall-mounted-pro/",
+              "pageLoadTime": 592,
+              "displayTitle": "AIO Ceiling Ducted | No Outdoor Unit",
+              "start": "00:08",
+              "timelineEvents": [
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "74j42iyvm",
+                  "start": "58:54"
+                },
+                {
+                  "text": "Installation Guide",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7g4ikteih",
+                  "start": "59:08"
+                },
+                {
+                  "text": "Dimensions",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2vn67lfcx",
+                  "start": "59:27"
+                },
+                {
+                  "text": "Installation Instructions",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7tic2bk43",
+                  "start": "59:54"
+                },
+                {
+                  "text": "Dimensions",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7y6j4metl",
+                  "start": "01:00:06"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-ducted/",
+              "FID": "Not available",
+              "CLS": "0.094",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 4697,
+              "referrerUrl": "https://innova.co/aio/wall-mounted-pro/",
+              "pageLoadTime": 592,
+              "displayTitle": "AIO Ceiling Ducted | No Outdoor Unit",
+              "start": "22:41",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3hbfiror2",
+                  "start": "01:27:41"
+                },
+                {
+                  "text": "AIO Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "30z9lv35z",
+                  "start": "01:27:44"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0.042",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 23942,
+              "referrerUrl": "https://innova.co/aio/ceiling-ducted/",
+              "pageLoadTime": 652,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "22:46",
+              "timelineEvents": [
+                {
+                  "text": "Installation Guide",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7g4e4tw8s",
+                  "start": "01:27:53"
+                },
+                {
+                  "text": "Accessories",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3ff1son",
+                  "start": "01:28:08"
+                },
+                {
+                  "text": "External Nebulizer Kit",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7eineudoc",
+                  "start": "01:28:12"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/external-nebulizer-kit/",
+              "FID": "Not available",
+              "CLS": "0.044",
+              "LCP": "1.4s",
+              "score": 0,
+              "duration": 7422,
+              "referrerUrl": "https://innova.co/aio/wall-mounted-pro/",
+              "pageLoadTime": 1628,
+              "displayTitle": "External Nebulizer Kit | INNOVA Heat Pump Accessories",
+              "start": "23:10",
+              "timelineEvents": [
+                {
+                  "text": "Accessories",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3ff1son",
+                  "start": "01:28:40"
+                },
+                {
+                  "text": "Resources",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t20wu0rc",
+                  "start": "01:28:43"
+                },
+                {
+                  "text": "Technical Resources",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1hwce12dv",
+                  "start": "01:28:44"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/documentation/technical-resources/",
+              "FID": "Not available",
+              "CLS": "0.13",
+              "LCP": "0.28s",
+              "score": 0,
+              "duration": 314229,
+              "referrerUrl": "https://innova.co/external-nebulizer-kit/",
+              "pageLoadTime": 720,
+              "displayTitle": "Technical Resources | Innova",
+              "start": "23:17",
+              "timelineEvents": [
+                {
+                  "text": "Wall Mounted Pro Accessor",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3lyh50fgv",
+                  "start": "01:28:57"
+                },
+                {
+                  "text": "Operation & Maintenance",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "p1rtckwn",
+                  "start": "01:29:01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/1gohiel/1gvzmto",
+          "timestamp": "2026-08-25 21:16:01",
+          "totalDuration": "10 minutes and 18 seconds",
+          "activeDuration": "07 minutes and 38 seconds",
+          "pagesCount": 6,
+          "sessionClickCount": 22,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.006",
+              "LCP": "2.3s",
+              "score": 0,
+              "duration": 50456,
+              "referrerUrl": null,
+              "pageLoadTime": 3787,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Learn More",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "68lrp7r99",
+                  "start": "00:50"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 308729,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "00:50",
+              "timelineEvents": [
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "74icck2yc",
+                  "start": "04:56"
+                },
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "74icck2yc",
+                  "start": "05:21"
+                },
+                {
+                  "text": "Submittals",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7g3jdcr3y",
+                  "start": "05:29"
+                },
+                {
+                  "text": "Maintenance and Troublesh",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7g4p9p3kt",
+                  "start": "05:41"
+                },
+                {
+                  "text": "Self Certification Guide",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7g39njke0",
+                  "start": "06:00"
+                },
+                {
+                  "text": "Filter Cleaning Instructi",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7g52hlqtz",
+                  "start": "06:04"
+                },
+                {
+                  "text": "STEP",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2vms04p1a",
+                  "start": "06:14"
+                },
+                {
+                  "text": "Dimensions",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2vmzhmgij",
+                  "start": "06:22"
+                },
+                {
+                  "text": "Revit",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2vltla41o",
+                  "start": "06:25"
+                },
+                {
+                  "text": "Differences Between Gen ▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7g4dr0n5n",
+                  "start": "06:29"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/product-lines/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 27109,
+              "referrerUrl": "https://www.bing.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "Product Lines | INNOVA",
+              "start": "08:39",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "14:40"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "15:00"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "15:00"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "15:00"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "15:03"
+                },
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y9mlwaq",
+                  "start": "15:05"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 18328,
+              "referrerUrl": "https://innova.co/product-lines/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "09:06",
+              "timelineEvents": [
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "12p2kigy3",
+                  "start": "15:42"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/product-lines/",
+              "FID": "Not available",
+              "CLS": "0.23",
+              "LCP": "0.54s",
+              "score": 65,
+              "duration": 22514,
+              "referrerUrl": "https://www.bing.com/",
+              "pageLoadTime": 3396,
+              "displayTitle": "Product Lines | INNOVA",
+              "start": "09:24",
+              "timelineEvents": [
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "16:13"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "16:13"
+                },
+                {
+                  "text": "AIO™ All-In-One Heat Pump",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5nd72ov2l",
+                  "start": "16:31"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 31119,
+              "referrerUrl": "https://innova.co/product-lines/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "09:47",
+              "timelineEvents": [
+                {
+                  "text": "See All Models",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "48993ghjz",
+                  "start": "16:56"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/7uluws/1is5kev",
+          "timestamp": "2026-08-25 20:51:11",
+          "totalDuration": "03 minutes and 35 seconds",
+          "activeDuration": "03 minutes and 35 seconds",
+          "pagesCount": 3,
+          "sessionClickCount": 31,
+          "timeline": [
+            {
+              "url": "https://innova.co/innovacon-2026/",
+              "FID": "Not available",
+              "CLS": "0.006",
+              "LCP": "8.2s",
+              "score": 63,
+              "duration": 165723,
+              "referrerUrl": null,
+              "pageLoadTime": 8596,
+              "displayTitle": "INNOVACON 2026 | Innova",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "RSVP Now",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "q65wgqf5",
+                  "start": "47:40"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7m32rwp9n",
+                  "start": "47:42"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "47:43"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "47:43"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "47:43"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "47:43"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "47:43"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "47:43"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "47:43"
+                },
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7flbudby5",
+                  "start": "47:46"
+                },
+                {
+                  "text": "▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5wrgkitqa",
+                  "start": "47:47"
+                },
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5bqs37czq",
+                  "start": "47:49"
+                },
+                {
+                  "text": "Sales Representative",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4w0sx15gq",
+                  "start": "47:50"
+                },
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2zx69c16v",
+                  "start": "47:53"
+                },
+                {
+                  "text": "Sales Enablement & Techni",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4w0t9i86h",
+                  "start": "48:03"
+                },
+                {
+                  "text": "Sales Enablement & Techni",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8m91mw3l4",
+                  "start": "48:06"
+                },
+                {
+                  "text": "Sales Enablement & Techni",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8m91mw3l4",
+                  "start": "48:15"
+                },
+                {
+                  "text": "+",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3oxg7y4el",
+                  "start": "48:19"
+                },
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "smafhzol",
+                  "start": "48:28"
+                },
+                {
+                  "text": "▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6h68jdhr",
+                  "start": "48:29"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "smae49qd",
+                  "start": "48:36"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "48:38"
+                },
+                {
+                  "text": "Confirm Attendance Please",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "v9ntdsw",
+                  "start": "48:39"
+                },
+                {
+                  "text": "on",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "16xrsw8bm",
+                  "start": "48:53"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "48:53"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/innovacon-2026/",
+              "FID": "Not available",
+              "CLS": "0.001",
+              "LCP": "1.2s",
+              "score": 0,
+              "duration": 43401,
+              "referrerUrl": null,
+              "pageLoadTime": 1521,
+              "displayTitle": "INNOVACON 2026 | Innova",
+              "start": "02:45",
+              "timelineEvents": [
+                {
+                  "text": "RSVP Now",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6xyaoub6w",
+                  "start": "53:16"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7m32rwp9n",
+                  "start": "53:18"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "53:21"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "53:21"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "53:21"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "53:21"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "53:21"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "53:21"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "53:21"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "smae49qd",
+                  "start": "53:22"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "53:24"
+                },
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7flbudby5",
+                  "start": "53:26"
+                },
+                {
+                  "text": "▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5wrgkitqa",
+                  "start": "53:26"
+                },
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5bqs37czq",
+                  "start": "53:27"
+                },
+                {
+                  "text": "Sales Representative",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4w0sx15gq",
+                  "start": "53:28"
+                },
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2zx69c16v",
+                  "start": "53:29"
+                },
+                {
+                  "text": "Sales Enablement & Techni",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4w0t9i86h",
+                  "start": "53:33"
+                },
+                {
+                  "text": "+",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3oxg7y4el",
+                  "start": "53:36"
+                },
+                {
+                  "text": "Select",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4k63twtfq",
+                  "start": "53:38"
+                },
+                {
+                  "text": "▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6h68jdhr",
+                  "start": "53:39"
+                },
+                {
+                  "text": "on",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "16xrsw8bm",
+                  "start": "53:44"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "53:44"
+                },
+                {
+                  "text": "Reserve My Spot",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "74f5jwjnz",
+                  "start": "53:50"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/innovacon-events-thank-you/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 6683,
+              "referrerUrl": "https://innova.co/innovacon-2026/",
+              "pageLoadTime": 0,
+              "displayTitle": "INNOVACON EVENTS Thank you | Innova",
+              "start": "03:29",
+              "timelineEvents": [
+                {
+                  "text": "Event: INNOVACON Dates: N",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8oq9plwm",
+                  "start": "54:42"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/1v5926b/jkosx6",
+          "timestamp": "2026-08-25 19:55:57",
+          "totalDuration": "11 minutes and 04 seconds",
+          "activeDuration": "11 minutes and 04 seconds",
+          "pagesCount": 10,
+          "sessionClickCount": 12,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "1",
+              "LCP": "0.95s",
+              "score": 0,
+              "duration": 14308,
+              "referrerUrl": "https://ephoca.com/",
+              "pageLoadTime": 2865,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2f1shdk0j",
+                  "start": "41:10"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "41:11"
+                },
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y9mlwaq",
+                  "start": "41:23"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "1",
+              "LCP": "0.95s",
+              "score": 0,
+              "duration": 14308,
+              "referrerUrl": "https://ephoca.com/",
+              "pageLoadTime": 2865,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:14",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2f1shdk0j",
+                  "start": "01:28:18"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "01:28:20"
+                },
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y9mlwaq",
+                  "start": "01:28:32"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0.45",
+              "LCP": "0.61s",
+              "score": 0,
+              "duration": 18615,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 1907,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "00:28",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "1",
+              "LCP": "0.95s",
+              "score": 0,
+              "duration": 6218,
+              "referrerUrl": "https://ephoca.com/",
+              "pageLoadTime": 2865,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:47",
+              "timelineEvents": [
+                {
+                  "text": "All-In-One Heat Pumps",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2j523dohq",
+                  "start": "02:40:30"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/",
+              "FID": "Not available",
+              "CLS": "0.44",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 9072,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 855,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "00:53",
+              "timelineEvents": [
+                {
+                  "text": "Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "v6evnfu8",
+                  "start": "02:40:45"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0.78",
+              "LCP": "0.22s",
+              "score": 0,
+              "duration": 154355,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 1229,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "01:02",
+              "timelineEvents": [
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "12p2kigy3",
+                  "start": "02:40:59"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "02:41:00"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:43:27"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Selected Text",
+                  "hash": "0",
+                  "start": "02:43:27"
+                },
+                {
+                  "text": "All-In-One Heat Pumps",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yr7xt34",
+                  "start": "02:43:28"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/",
+              "FID": "Not available",
+              "CLS": "0.76",
+              "LCP": "0.22s",
+              "score": 0,
+              "duration": 95442,
+              "referrerUrl": "https://innova.co/aio/wall-mounted/",
+              "pageLoadTime": 1209,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "03:36",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:47:37"
+                },
+                {
+                  "text": "All-In-One Heat Pumps",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yr7xt34",
+                  "start": "02:47:38"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 11237,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "05:12",
+              "timelineEvents": [
+                {
+                  "text": "Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4ma6i3jnj",
+                  "start": "02:49:25"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0.53",
+              "LCP": "0.61s",
+              "score": 0,
+              "duration": 19977,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 1187,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "05:23",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/aio/",
+              "FID": "Not available",
+              "CLS": "0.94",
+              "LCP": "0.25s",
+              "score": 0,
+              "duration": 3032,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 1336,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "05:43",
+              "timelineEvents": [
+                {
+                  "text": "Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4ma6i3jnj",
+                  "start": "02:50:19"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 318076,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "05:46",
+              "timelineEvents": []
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/t60p04/14ow31y",
+          "timestamp": "2026-08-25 19:46:25",
+          "totalDuration": "05 minutes and 44 seconds",
+          "activeDuration": "05 minutes and 44 seconds",
+          "pagesCount": 7,
+          "sessionClickCount": 18,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.38",
+              "LCP": "0.52s",
+              "score": 0,
+              "duration": 3542,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 992,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1gcvfb82",
+                  "start": "41:55"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3qmjvpqhw",
+                  "start": "41:55"
+                },
+                {
+                  "text": "Contact",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2hyj3yx7l",
+                  "start": "41:57"
+                },
+                {
+                  "text": "Contact",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2hyj3yx7l",
+                  "start": "41:57"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/contact-us/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.22s",
+              "score": 95,
+              "duration": 2716,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 358,
+              "displayTitle": "Contact Us | Innova",
+              "start": "00:03",
+              "timelineEvents": [
+                {
+                  "text": "See Our Locations",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "226hwbwq5",
+                  "start": "42:03"
+                },
+                {
+                  "text": "See Our Locations",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "226hwbwq5",
+                  "start": "42:03"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/contact-us/locations/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.31s",
+              "score": 0,
+              "duration": 4549,
+              "referrerUrl": "https://innova.co/contact-us/",
+              "pageLoadTime": 289,
+              "displayTitle": "Locations | Showrooms",
+              "start": "00:06",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/contact-us/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.22s",
+              "score": 95,
+              "duration": 19856,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 358,
+              "displayTitle": "Contact Us | Innova",
+              "start": "00:10",
+              "timelineEvents": [
+                {
+                  "text": "Call (▫▫▫) ▫▫▫-▫▫▫▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5buhk2hlc",
+                  "start": "42:16"
+                },
+                {
+                  "text": "See Our Locations",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4plj4w0td",
+                  "start": "42:25"
+                },
+                {
+                  "text": "See Our Locations",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4plj4w0td",
+                  "start": "42:27"
+                },
+                {
+                  "text": "See Our Locations",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4plj4w0td",
+                  "start": "42:28"
+                },
+                {
+                  "text": "See Our Locations",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4plj4w0td",
+                  "start": "42:28"
+                },
+                {
+                  "text": "See Our Locations",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4plj4w0td",
+                  "start": "42:30"
+                },
+                {
+                  "text": "Chat with Us",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7toee2wr",
+                  "start": "42:31"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.38",
+              "LCP": "0.52s",
+              "score": 0,
+              "duration": 1437,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 992,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:30",
+              "timelineEvents": [
+                {
+                  "text": "Contact",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2hyj3yx7l",
+                  "start": "42:56"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/contact-us/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.16s",
+              "score": 0,
+              "duration": 917,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 311,
+              "displayTitle": "Contact Us | Innova",
+              "start": "00:32",
+              "timelineEvents": [
+                {
+                  "text": "See Our Locations",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "226hwbwq5",
+                  "start": "42:58"
+                },
+                {
+                  "text": "See Our Locations",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "226hwbwq5",
+                  "start": "42:59"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/contact-us/locations/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.1s",
+              "score": 0,
+              "duration": 311925,
+              "referrerUrl": "https://innova.co/contact-us/",
+              "pageLoadTime": 215,
+              "displayTitle": "Locations | Showrooms",
+              "start": "00:33",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "45iot3c25",
+                  "start": "43:03"
+                },
+                {
+                  "text": "Tel: (▫▫▫) ▫▫▫-▫▫▫▫ — Mai",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4j8j5yahq",
+                  "start": "43:14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/spqaxn/8l0c49",
+          "timestamp": "2026-08-25 19:40:36",
+          "totalDuration": "43 minutes and 45 seconds",
+          "activeDuration": "43 minutes and 37 seconds",
+          "pagesCount": 11,
+          "sessionClickCount": 41,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "1",
+              "LCP": "3s",
+              "score": 0,
+              "duration": 110995,
+              "referrerUrl": "https://ephoca.com/",
+              "pageLoadTime": 4105,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1wt9dveo9",
+                  "start": "01:36:20"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "01:38:03"
+                },
+                {
+                  "text": "Contact",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4jafou1qs",
+                  "start": "01:38:06"
+                },
+                {
+                  "text": "About Us",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4jb4l5crr",
+                  "start": "01:38:07"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/about-us/",
+              "FID": "Not available",
+              "CLS": "0.004",
+              "LCP": "0.45s",
+              "score": 0,
+              "duration": 7176,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 1438,
+              "displayTitle": "About Us | Innova",
+              "start": "01:50",
+              "timelineEvents": [
+                {
+                  "text": "Contact",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4jafou1qs",
+                  "start": "01:40:05"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/contact-us/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.32s",
+              "score": 0,
+              "duration": 504054,
+              "referrerUrl": "https://innova.co/about-us/",
+              "pageLoadTime": 603,
+              "displayTitle": "Contact Us | Innova",
+              "start": "01:58",
+              "timelineEvents": [
+                {
+                  "text": "Get support",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "54xthsg5n",
+                  "start": "01:40:21"
+                },
+                {
+                  "text": "Get in touch",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "54wu0m82y",
+                  "start": "01:40:23"
+                },
+                {
+                  "text": "Get in touch",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "54x03s03x",
+                  "start": "01:40:25"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0.001",
+              "LCP": "2.1s",
+              "score": 86,
+              "duration": 21481,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 2046,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "10:22",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "01:57:02"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "01:57:04"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "01:57:04"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "01:57:04"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "01:57:04"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "01:57:05"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "01:57:06"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "01:57:06"
+                },
+                {
+                  "text": "Skip to content Ephoca ha",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "6j1l42zk6",
+                  "start": "01:57:06"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "01:57:07"
+                },
+                {
+                  "text": "AIO Ceiling Ducted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yfi1g8o",
+                  "start": "01:57:22"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-ducted/",
+              "FID": "Not available",
+              "CLS": "0.24",
+              "LCP": "0.27s",
+              "score": 0,
+              "duration": 892180,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 1393,
+              "displayTitle": "AIO Ceiling Ducted | No Outdoor Unit",
+              "start": "10:43",
+              "timelineEvents": [
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "01:57:52"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "01:58:03"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "01:58:04"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "01:58:08"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "01:58:12"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "u4t88t0q",
+                  "start": "01:59:44"
+                },
+                {
+                  "text": "Chat with us now",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "2dpwzogch",
+                  "start": "01:59:46"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4o3z7u4at",
+                  "start": "02:00:09"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4o3z7u4at",
+                  "start": "02:00:14"
+                },
+                {
+                  "text": "Download Full PDF",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "63yagls28",
+                  "start": "02:04:07"
+                },
+                {
+                  "text": "Installation Guide",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7g4ikteih",
+                  "start": "02:04:23"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "1s",
+              "score": 0,
+              "duration": 666253,
+              "referrerUrl": "https://apav.com/",
+              "pageLoadTime": 1018,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "25:35",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "u4t88t0q",
+                  "start": "02:27:49"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:27:50"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sehflbje",
+                  "start": "02:27:51"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:27:54"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:27:58"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:28:02"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sehflbje",
+                  "start": "02:29:17"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:29:22"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:29:24"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:29:33"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:29:35"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:29:39"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:29:41"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sehflbje",
+                  "start": "02:29:50"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:30:03"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:30:08"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:30:09"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:30:13"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sehflbje",
+                  "start": "02:31:17"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sehflbje",
+                  "start": "02:31:20"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sehflbje",
+                  "start": "02:31:25"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:31:26"
+                },
+                {
+                  "text": "••••• •••• •••• •••• •••• ••••",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sehflbje",
+                  "start": "02:31:27"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:31:31"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:31:33"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:31:46"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:31:51"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:32:00"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:32:16"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:32:18"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sehflbje",
+                  "start": "02:34:13"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:34:18"
+                },
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:34:21"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "1.9s",
+              "score": 0,
+              "duration": 6173,
+              "referrerUrl": "https://apav.com/",
+              "pageLoadTime": 1804,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "36:42",
+              "timelineEvents": [
+                {
+                  "text": "Accessories",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3ff1son",
+                  "start": "02:49:43"
+                },
+                {
+                  "text": "Flange Louver Assembly",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "76om6btsd",
+                  "start": "02:49:46"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/louvers/#Flange-Louver-Assembly",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 22481,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 0,
+              "displayTitle": "Louvers | Flanged, Concealed & Ceiling Mounted",
+              "start": "36:48",
+              "timelineEvents": [
+                {
+                  "text": "Projects",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5zu68l4k5",
+                  "start": "02:50:15"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/projects/",
+              "FID": "Not available",
+              "CLS": "0.37",
+              "LCP": "0.66s",
+              "score": 0,
+              "duration": 342711,
+              "referrerUrl": "https://innova.co/louvers/",
+              "pageLoadTime": 621,
+              "displayTitle": "Projects",
+              "start": "37:10",
+              "timelineEvents": [
+                {
+                  "text": "",
+                  "link": "",
+                  "eventtype": "Entered Text",
+                  "hash": "0",
+                  "start": "02:56:04"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "u4t88t0q",
+                  "start": "02:56:13"
+                },
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "5sehflbje",
+                  "start": "02:56:15"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 10191,
+              "referrerUrl": "https://apav.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "43:00",
+              "timelineEvents": [
+                {
+                  "text": "Contact",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "4jafou1qs",
+                  "start": "03:02:21"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/contact-us/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.32s",
+              "score": 0,
+              "duration": 34090,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 596,
+              "displayTitle": "Contact Us | Innova",
+              "start": "43:10",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "u4t88t0q",
+                  "start": "03:02:33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/12gglas/10fp11p",
+          "timestamp": "2026-08-25 19:39:31",
+          "totalDuration": "04 minutes and 35 seconds",
+          "activeDuration": "04 minutes and 35 seconds",
+          "pagesCount": 7,
+          "sessionClickCount": 6,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 10823,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 0,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:19:56"
+                },
+                {
+                  "text": "OSMO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1gdeo9xs0",
+                  "start": "02:20:02"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/osmo/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "3s",
+              "score": 0,
+              "duration": 9848,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 2902,
+              "displayTitle": "OSMO Wall Mounted | Fan Coils",
+              "start": "00:10",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "02:20:19"
+                },
+                {
+                  "text": "AIO Floor Standing",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43y3ju5tw",
+                  "start": "02:20:25"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/floor-standing/",
+              "FID": "Not available",
+              "CLS": "0.05",
+              "LCP": "0.3s",
+              "score": 0,
+              "duration": 4396,
+              "referrerUrl": "https://innova.co/osmo/wall-mounted/",
+              "pageLoadTime": 524,
+              "displayTitle": "AIO Floor Standing | Compact and Efficient",
+              "start": "00:20",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/osmo/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "3s",
+              "score": 0,
+              "duration": 1214,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 2902,
+              "displayTitle": "OSMO Wall Mounted | Fan Coils",
+              "start": "00:25",
+              "timelineEvents": [
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8rx751d9w",
+                  "start": "02:20:45"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 4199,
+              "referrerUrl": "https://innova.co/osmo/wall-mounted/",
+              "pageLoadTime": 445,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "00:26",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/osmo/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "3s",
+              "score": 0,
+              "duration": 1153,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 2902,
+              "displayTitle": "OSMO Wall Mounted | Fan Coils",
+              "start": "00:30",
+              "timelineEvents": [
+                {
+                  "text": "AIO Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "77veyggw5",
+                  "start": "02:20:56"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0.088",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 244149,
+              "referrerUrl": "https://innova.co/osmo/wall-mounted/",
+              "pageLoadTime": 546,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "00:31",
+              "timelineEvents": []
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/13a50vj/1fosymc",
+          "timestamp": "2026-08-25 18:59:04",
+          "totalDuration": "13 minutes and 22 seconds",
+          "activeDuration": "11 minutes and 09 seconds",
+          "pagesCount": 9,
+          "sessionClickCount": 9,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "1",
+              "LCP": "0.52s",
+              "score": 0,
+              "duration": 13716,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 885,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3ehd4bp2c",
+                  "start": "01:16:55"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "01:16:56"
+                },
+                {
+                  "text": "All-In-One Heat Pumps",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yr7xt34",
+                  "start": "01:17:08"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/",
+              "FID": "Not available",
+              "CLS": "0.33",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 21595,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 608,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "00:13",
+              "timelineEvents": [
+                {
+                  "text": "Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3m938x6g5",
+                  "start": "01:17:43"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0.01",
+              "LCP": "0.15s",
+              "score": 0,
+              "duration": 311027,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 558,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "00:35",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0.1",
+              "LCP": "0.15s",
+              "score": 0,
+              "duration": 19397,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 558,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "07:59",
+              "timelineEvents": [
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "3hbfiror2",
+                  "start": "01:30:56"
+                },
+                {
+                  "text": "Single Package Systems",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1pxh28ymw",
+                  "start": "01:30:59"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/single-package-systems/",
+              "FID": "Not available",
+              "CLS": "0.1",
+              "LCP": "0.45s",
+              "score": 0,
+              "duration": 12785,
+              "referrerUrl": "https://innova.co/aio/wall-mounted-pro/",
+              "pageLoadTime": 1966,
+              "displayTitle": "Single Package Systems | Innova",
+              "start": "08:18",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "1f7uakaxw",
+                  "start": "01:31:31"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/#pthp",
+              "FID": "Not available",
+              "CLS": "0.23",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 4302,
+              "referrerUrl": "https://innova.co/single-package-systems/",
+              "pageLoadTime": 1111,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "08:31",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/single-package-systems/",
+              "FID": "Not available",
+              "CLS": "0.13",
+              "LCP": "0.45s",
+              "score": 0,
+              "duration": 1311,
+              "referrerUrl": "https://innova.co/aio/wall-mounted-pro/",
+              "pageLoadTime": 1966,
+              "displayTitle": "Single Package Systems | Innova",
+              "start": "08:35",
+              "timelineEvents": [
+                {
+                  "text": " ",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "27x5j841k",
+                  "start": "01:31:54"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/#mounted",
+              "FID": "Not available",
+              "CLS": "0.016",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 365,
+              "referrerUrl": "https://innova.co/single-package-systems/",
+              "pageLoadTime": 1142,
+              "displayTitle": "AIO Models | All-in-One Heat Pump Solutions",
+              "start": "08:37",
+              "timelineEvents": [
+                {
+                  "text": "Ceiling Suspended",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "z2zlefma",
+                  "start": "01:31:56"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/ceiling-suspended/",
+              "FID": "Not available",
+              "CLS": "Not available",
+              "LCP": "0.18s",
+              "score": 0,
+              "duration": 285279,
+              "referrerUrl": "https://innova.co/aio/",
+              "pageLoadTime": 1306,
+              "displayTitle": "AIO Ceiling Suspended | Innova Heat Pumps",
+              "start": "08:37",
+              "timelineEvents": []
+            }
+          ]
+        },
+        {
+          "link": "https://clarity.microsoft.com/player/w3qrlxl7vj/1pg0set/1den4re",
+          "timestamp": "2026-08-25 18:50:53",
+          "totalDuration": "07 minutes and 51 seconds",
+          "activeDuration": "07 minutes and 51 seconds",
+          "pagesCount": 4,
+          "sessionClickCount": 7,
+          "timeline": [
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "1",
+              "LCP": "1.6s",
+              "score": 56,
+              "duration": 18102,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 1586,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:00",
+              "timelineEvents": [
+                {
+                  "text": "Home ▪▪▪▪▪▪▪▪.▪▪▪▪▪▪▪▪▪-▫",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8k3rm6xw0",
+                  "start": "01:28:27"
+                },
+                {
+                  "text": "Products",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "7t3xqlaja",
+                  "start": "01:28:27"
+                },
+                {
+                  "text": "AIO Wall Mounted Pro",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "43yc45kh1",
+                  "start": "01:28:43"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted-pro/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 7553,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+              "start": "00:18",
+              "timelineEvents": []
+            },
+            {
+              "url": "https://innova.co/",
+              "FID": "Not available",
+              "CLS": "1",
+              "LCP": "1.6s",
+              "score": 56,
+              "duration": 1187,
+              "referrerUrl": "https://www.google.com/",
+              "pageLoadTime": 1586,
+              "displayTitle": "INNOVA: Next Gen Heat Pumps",
+              "start": "00:25",
+              "timelineEvents": [
+                {
+                  "text": "AIO Wall Mounted",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "8rx751d9w",
+                  "start": "01:29:17"
+                }
+              ]
+            },
+            {
+              "url": "https://innova.co/aio/wall-mounted/",
+              "FID": "Not available",
+              "CLS": "0",
+              "LCP": "0s",
+              "score": 0,
+              "duration": 444510,
+              "referrerUrl": "https://innova.co/",
+              "pageLoadTime": 0,
+              "displayTitle": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+              "start": "00:26",
+              "timelineEvents": [
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "74jff5oxe",
+                  "start": "01:29:31"
+                },
+                {
+                  "text": "Download Full PDF",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "63zm1zosh",
+                  "start": "01:29:51"
+                },
+                {
+                  "text": "Product Data Sheet",
+                  "link": "",
+                  "eventtype": "Click",
+                  "hash": "74icck2yc",
+                  "start": "01:33:06"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "security": "Authorization token is never stored in this file."
+}

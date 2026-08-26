@@ -1,0 +1,5763 @@
+{
+  "collectedAt": "2026-08-26T11:06:30.951Z",
+  "timezone": "Asia/Jerusalem",
+  "analysisWindow": {
+    "type": "rolling_last_24_hours",
+    "numOfDays": 1,
+    "approximateLocalStart": "25/08/2026, 14:06:30",
+    "approximateLocalEnd": "26/08/2026, 14:06:30",
+    "approximateUtcStart": "2026-08-25T11:06:30.951Z",
+    "approximateUtcEnd": "2026-08-26T11:06:30.951Z",
+    "note": "Microsoft Clarity Data Export API defines numOfDays=1 as the previous 24 hours. The API response itself is UTC."
+  },
+  "source": {
+    "platform": "Microsoft Clarity",
+    "api": "Data Export API",
+    "endpoint": "https://www.clarity.ms/export-data/api/v1/project-live-insights",
+    "requestsUsed": 2
+  },
+  "collectionStatus": {
+    "complete": true,
+    "possiblyTruncated": false,
+    "maxInformationRows": 83,
+    "warning": null
+  },
+  "metricNames": {
+    "project": [
+      "DeadClickCount",
+      "ExcessiveScroll",
+      "RageClickCount",
+      "QuickbackClick",
+      "ScriptErrorCount",
+      "ErrorClickCount",
+      "ScrollDepth",
+      "Traffic",
+      "EngagementTime",
+      "Browser",
+      "Device",
+      "OS",
+      "Country",
+      "PageTitle",
+      "ReferrerUrl",
+      "PopularPages"
+    ],
+    "url": [
+      "DeadClickCount",
+      "ExcessiveScroll",
+      "RageClickCount",
+      "QuickbackClick",
+      "ScriptErrorCount",
+      "ErrorClickCount",
+      "ScrollDepth",
+      "Traffic",
+      "EngagementTime"
+    ]
+  },
+  "preview": {
+    "traffic": {
+      "totalSessionCount": 233,
+      "totalBotSessionCount": 6,
+      "distinctUserCount": 178,
+      "pagesPerSession": 3.120967741935484
+    },
+    "engagement": {
+      "totalTime": 601,
+      "activeTime": 203
+    },
+    "friction": {
+      "DeadClickCount": {
+        "subTotal": 13,
+        "sessionsCount": 233,
+        "sessionsWithMetricPercentage": 3.43,
+        "pagesViews": 10
+      },
+      "ExcessiveScroll": {
+        "subTotal": 0,
+        "sessionsCount": 233,
+        "sessionsWithMetricPercentage": 0,
+        "pagesViews": 0
+      },
+      "RageClickCount": {
+        "subTotal": 0,
+        "sessionsCount": 233,
+        "sessionsWithMetricPercentage": 0,
+        "pagesViews": 0
+      },
+      "QuickbackClick": {
+        "subTotal": 96,
+        "sessionsCount": 233,
+        "sessionsWithMetricPercentage": 20.6,
+        "pagesViews": 96
+      },
+      "ScriptErrorCount": {
+        "subTotal": 0,
+        "sessionsCount": 233,
+        "sessionsWithMetricPercentage": 0,
+        "pagesViews": 0
+      },
+      "ErrorClickCount": {
+        "subTotal": 0,
+        "sessionsCount": 233,
+        "sessionsWithMetricPercentage": 0,
+        "pagesViews": 0
+      }
+    }
+  },
+  "export": {
+    "project": [
+      {
+        "metricName": "DeadClickCount",
+        "information": [
+          {
+            "sessionsCount": 233,
+            "sessionsWithMetricPercentage": 3.43,
+            "sessionsWithoutMetricPercentage": 96.57,
+            "pagesViews": 10,
+            "subTotal": 13
+          }
+        ]
+      },
+      {
+        "metricName": "ExcessiveScroll",
+        "information": [
+          {
+            "sessionsCount": 233,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0
+          }
+        ]
+      },
+      {
+        "metricName": "RageClickCount",
+        "information": [
+          {
+            "sessionsCount": 233,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0
+          }
+        ]
+      },
+      {
+        "metricName": "QuickbackClick",
+        "information": [
+          {
+            "sessionsCount": 233,
+            "sessionsWithMetricPercentage": 20.6,
+            "sessionsWithoutMetricPercentage": 79.4,
+            "pagesViews": 96,
+            "subTotal": 96
+          }
+        ]
+      },
+      {
+        "metricName": "ScriptErrorCount",
+        "information": [
+          {
+            "sessionsCount": 233,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0
+          }
+        ]
+      },
+      {
+        "metricName": "ErrorClickCount",
+        "information": [
+          {
+            "sessionsCount": 233,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0
+          }
+        ]
+      },
+      {
+        "metricName": "ScrollDepth",
+        "information": [
+          {
+            "averageScrollDepth": 53.27
+          }
+        ]
+      },
+      {
+        "metricName": "Traffic",
+        "information": [
+          {
+            "totalSessionCount": 233,
+            "totalBotSessionCount": 6,
+            "distinctUserCount": 178,
+            "pagesPerSessionPercentage": 3.120967741935484
+          }
+        ]
+      },
+      {
+        "metricName": "EngagementTime",
+        "information": [
+          {
+            "totalTime": 601,
+            "activeTime": 203
+          }
+        ]
+      },
+      {
+        "metricName": "Browser",
+        "information": [
+          {
+            "name": "Chrome",
+            "sessionsCount": 106
+          },
+          {
+            "name": "Edge",
+            "sessionsCount": 61
+          },
+          {
+            "name": "MobileSafari",
+            "sessionsCount": 37
+          },
+          {
+            "name": "ChromeMobile",
+            "sessionsCount": 18
+          },
+          {
+            "name": "Safari",
+            "sessionsCount": 5
+          },
+          {
+            "name": "GoogleApp",
+            "sessionsCount": 4
+          },
+          {
+            "name": "Firefox",
+            "sessionsCount": 2
+          }
+        ]
+      },
+      {
+        "metricName": "Device",
+        "information": [
+          {
+            "name": "PC",
+            "sessionsCount": 173
+          },
+          {
+            "name": "Mobile",
+            "sessionsCount": 58
+          },
+          {
+            "name": "Tablet",
+            "sessionsCount": 2
+          }
+        ]
+      },
+      {
+        "metricName": "OS",
+        "information": [
+          {
+            "name": "Windows",
+            "sessionsCount": 161
+          },
+          {
+            "name": "IOS",
+            "sessionsCount": 46
+          },
+          {
+            "name": "Android",
+            "sessionsCount": 14
+          },
+          {
+            "name": "MacOSX",
+            "sessionsCount": 12
+          }
+        ]
+      },
+      {
+        "metricName": "Country",
+        "information": [
+          {
+            "name": "United States",
+            "sessionsCount": 170
+          },
+          {
+            "name": "Canada",
+            "sessionsCount": 43
+          },
+          {
+            "name": "Australia",
+            "sessionsCount": 6
+          },
+          {
+            "name": "India",
+            "sessionsCount": 3
+          },
+          {
+            "name": "Italy",
+            "sessionsCount": 3
+          },
+          {
+            "name": "Japan",
+            "sessionsCount": 3
+          },
+          {
+            "name": "Norway",
+            "sessionsCount": 2
+          },
+          {
+            "name": "Austria",
+            "sessionsCount": 1
+          },
+          {
+            "name": "Chile",
+            "sessionsCount": 1
+          },
+          {
+            "name": "Germany",
+            "sessionsCount": 1
+          }
+        ]
+      },
+      {
+        "metricName": "PageTitle",
+        "information": [
+          {
+            "name": "INNOVA: Next Gen Heat Pumps",
+            "sessionsCount": 89
+          },
+          {
+            "name": "AIO Wall Mounted | Heat Pump | No Outdoor Unit",
+            "sessionsCount": 48
+          },
+          {
+            "name": "Technical Resources | Innova",
+            "sessionsCount": 29
+          },
+          {
+            "name": "AIO Vertical Stack | No Outdoor Unit | Heat Pump",
+            "sessionsCount": 22
+          },
+          {
+            "name": "AIO Models | All-in-One Heat Pump Solutions",
+            "sessionsCount": 22
+          },
+          {
+            "name": "AIO Wall Mounted Pro | Heat Pump | Perfect for Any Space",
+            "sessionsCount": 19
+          },
+          {
+            "name": "Contact Us | Innova",
+            "sessionsCount": 18
+          },
+          {
+            "name": "Locations | Showrooms",
+            "sessionsCount": 15
+          },
+          {
+            "name": "Controllers | AIO Heat Pump Accessories",
+            "sessionsCount": 13
+          },
+          {
+            "name": "AIO Nomenclature Generator | Innova",
+            "sessionsCount": 13
+          }
+        ]
+      },
+      {
+        "metricName": "ReferrerUrl",
+        "information": [
+          {
+            "name": "https://innova.co/",
+            "sessionsCount": 98
+          },
+          {
+            "name": null,
+            "sessionsCount": 69
+          },
+          {
+            "name": "https://www.google.com/",
+            "sessionsCount": 44
+          },
+          {
+            "name": "https://ephoca.com/",
+            "sessionsCount": 31
+          },
+          {
+            "name": "https://innova.co/aio/wall-mounted/",
+            "sessionsCount": 22
+          },
+          {
+            "name": "https://innova.co/aio/",
+            "sessionsCount": 20
+          },
+          {
+            "name": "https://innova.co/aio/wall-mounted-pro/",
+            "sessionsCount": 10
+          },
+          {
+            "name": "https://www.bing.com/",
+            "sessionsCount": 10
+          },
+          {
+            "name": "https://innova.co/contact-us/",
+            "sessionsCount": 8
+          },
+          {
+            "name": "https://innova.co/louvers/",
+            "sessionsCount": 7
+          }
+        ]
+      },
+      {
+        "metricName": "PopularPages",
+        "information": [
+          {
+            "url": "https://innova.co/",
+            "visitsCount": 91
+          },
+          {
+            "url": "https://innova.co/aio/wall-mounted/",
+            "visitsCount": 51
+          },
+          {
+            "url": "https://innova.co/documentation/technical-resources/",
+            "visitsCount": 30
+          },
+          {
+            "url": "https://innova.co/aio/vertical-stack/",
+            "visitsCount": 25
+          },
+          {
+            "url": "https://innova.co/aio/",
+            "visitsCount": 24
+          },
+          {
+            "url": "https://innova.co/aio/wall-mounted-pro/",
+            "visitsCount": 22
+          },
+          {
+            "url": "https://innova.co/contact-us/",
+            "visitsCount": 18
+          },
+          {
+            "url": "https://innova.co/contact-us/locations/",
+            "visitsCount": 15
+          },
+          {
+            "url": "https://innova.co/tools/aio-nomenclature-generator/",
+            "visitsCount": 14
+          },
+          {
+            "url": "https://innova.co/controllers/",
+            "visitsCount": 14
+          }
+        ]
+      }
+    ],
+    "byUrl": [
+      {
+        "metricName": "DeadClickCount",
+        "information": [
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/"
+          },
+          {
+            "sessionsCount": 88,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/Tools/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/"
+          },
+          {
+            "sessionsCount": 16,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/thermostats-gateways-checker/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/filter-cleaning-instructions/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/hot-topics/ptac-challenge/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/external-nebulizer-kit/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Flange-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Round-vents"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#wireless-energy-management-thermostat"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/pro-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Surface-Mounted-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 13,
+            "sessionsWithMetricPercentage": 15.38,
+            "sessionsWithoutMetricPercentage": 84.62,
+            "pagesViews": 2,
+            "subTotal": 2,
+            "Url": "https://innova.co/tools/aio-nomenclature-generator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#GWX-Gateway-Control-Board"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/product-lines/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 6.67,
+            "sessionsWithoutMetricPercentage": 93.33,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/contact-us/locations/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/all-events/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#ducted"
+          },
+          {
+            "sessionsCount": 48,
+            "sessionsWithMetricPercentage": 2.08,
+            "sessionsWithoutMetricPercentage": 97.92,
+            "pagesViews": 1,
+            "subTotal": 2,
+            "Url": "https://innova.co/aio/wall-mounted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/?utm_source=chatgpt.com"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/innova-apartmentalize-2026/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/hvac-performance-calculator/"
+          },
+          {
+            "sessionsCount": 9,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/nextgen-pthp/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2#"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#mounted"
+          },
+          {
+            "sessionsCount": 10,
+            "sessionsWithMetricPercentage": 10,
+            "sessionsWithoutMetricPercentage": 90,
+            "pagesViews": 2,
+            "subTotal": 2,
+            "Url": "https://innova.co/innovacon-2026/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 16.67,
+            "sessionsWithoutMetricPercentage": 83.33,
+            "pagesViews": 1,
+            "subTotal": 2,
+            "Url": "https://innova.co/about-us/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=3"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/okki/ai-driven-jets/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=1"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#basic-touch-controller"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/horizontal-ducted/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#models"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/modular/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Concealed-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Window-Assembly-Adapter"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/floor-standing/"
+          },
+          {
+            "sessionsCount": 11,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter-wm"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/willets-point/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/split-systems/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended-w-erv/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/frameless-trench/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/recessed-high-wall-plaster-frame/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/brochures/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#advanced-touchscreen-controller"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact-complete/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/erv-module/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/shipping-cost-calculator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural-split/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/vancouver-heat-symposium/"
+          },
+          {
+            "sessionsCount": 22,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack/"
+          },
+          {
+            "sessionsCount": 29,
+            "sessionsWithMetricPercentage": 6.9,
+            "sessionsWithoutMetricPercentage": 93.1,
+            "pagesViews": 3,
+            "subTotal": 4,
+            "Url": "https://innova.co/documentation/technical-resources/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/user-guides/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/111-wall-street/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#pthp"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/"
+          },
+          {
+            "sessionsCount": 19,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/wall-mounted-pro/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack-xl/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/single-package-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-events-thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/vertical-stack/"
+          }
+        ]
+      },
+      {
+        "metricName": "ExcessiveScroll",
+        "information": [
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/"
+          },
+          {
+            "sessionsCount": 88,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/Tools/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/"
+          },
+          {
+            "sessionsCount": 16,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/thermostats-gateways-checker/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/filter-cleaning-instructions/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/hot-topics/ptac-challenge/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/external-nebulizer-kit/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Flange-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Round-vents"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#wireless-energy-management-thermostat"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/pro-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Surface-Mounted-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 13,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/aio-nomenclature-generator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#GWX-Gateway-Control-Board"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/product-lines/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/locations/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/all-events/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#ducted"
+          },
+          {
+            "sessionsCount": 48,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/wall-mounted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/?utm_source=chatgpt.com"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/innova-apartmentalize-2026/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/hvac-performance-calculator/"
+          },
+          {
+            "sessionsCount": 9,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/nextgen-pthp/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2#"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#mounted"
+          },
+          {
+            "sessionsCount": 10,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-2026/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/about-us/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=3"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/okki/ai-driven-jets/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=1"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#basic-touch-controller"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/horizontal-ducted/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#models"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/modular/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Concealed-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Window-Assembly-Adapter"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/floor-standing/"
+          },
+          {
+            "sessionsCount": 11,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter-wm"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/willets-point/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/split-systems/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended-w-erv/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/frameless-trench/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/recessed-high-wall-plaster-frame/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/brochures/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#advanced-touchscreen-controller"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact-complete/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/erv-module/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/shipping-cost-calculator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural-split/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/vancouver-heat-symposium/"
+          },
+          {
+            "sessionsCount": 22,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack/"
+          },
+          {
+            "sessionsCount": 29,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/technical-resources/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/user-guides/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/111-wall-street/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#pthp"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/"
+          },
+          {
+            "sessionsCount": 19,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/wall-mounted-pro/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack-xl/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/single-package-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-events-thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/vertical-stack/"
+          }
+        ]
+      },
+      {
+        "metricName": "RageClickCount",
+        "information": [
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/"
+          },
+          {
+            "sessionsCount": 88,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/Tools/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/"
+          },
+          {
+            "sessionsCount": 16,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/thermostats-gateways-checker/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/filter-cleaning-instructions/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/hot-topics/ptac-challenge/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/external-nebulizer-kit/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Flange-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Round-vents"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#wireless-energy-management-thermostat"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/pro-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Surface-Mounted-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 13,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/aio-nomenclature-generator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#GWX-Gateway-Control-Board"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/product-lines/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/locations/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/all-events/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#ducted"
+          },
+          {
+            "sessionsCount": 48,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/wall-mounted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/?utm_source=chatgpt.com"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/innova-apartmentalize-2026/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/hvac-performance-calculator/"
+          },
+          {
+            "sessionsCount": 9,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/nextgen-pthp/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2#"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#mounted"
+          },
+          {
+            "sessionsCount": 10,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-2026/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/about-us/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=3"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/okki/ai-driven-jets/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=1"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#basic-touch-controller"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/horizontal-ducted/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#models"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/modular/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Concealed-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Window-Assembly-Adapter"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/floor-standing/"
+          },
+          {
+            "sessionsCount": 11,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter-wm"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/willets-point/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/split-systems/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended-w-erv/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/frameless-trench/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/recessed-high-wall-plaster-frame/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/brochures/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#advanced-touchscreen-controller"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact-complete/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/erv-module/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/shipping-cost-calculator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural-split/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/vancouver-heat-symposium/"
+          },
+          {
+            "sessionsCount": 22,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack/"
+          },
+          {
+            "sessionsCount": 29,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/technical-resources/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/user-guides/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/111-wall-street/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#pthp"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/"
+          },
+          {
+            "sessionsCount": 19,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/wall-mounted-pro/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack-xl/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/single-package-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-events-thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/vertical-stack/"
+          }
+        ]
+      },
+      {
+        "metricName": "QuickbackClick",
+        "information": [
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 33.33,
+            "sessionsWithoutMetricPercentage": 66.67,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/stone/"
+          },
+          {
+            "sessionsCount": 88,
+            "sessionsWithMetricPercentage": 28.41,
+            "sessionsWithoutMetricPercentage": 71.59,
+            "pagesViews": 36,
+            "subTotal": 36,
+            "Url": "https://innova.co/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/Tools/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/"
+          },
+          {
+            "sessionsCount": 16,
+            "sessionsWithMetricPercentage": 18.75,
+            "sessionsWithoutMetricPercentage": 81.25,
+            "pagesViews": 5,
+            "subTotal": 5,
+            "Url": "https://innova.co/aio/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/thermostats-gateways-checker/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 25,
+            "sessionsWithoutMetricPercentage": 75,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/loop/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/filter-cleaning-instructions/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 100,
+            "sessionsWithoutMetricPercentage": 0,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/hot-topics/ptac-challenge/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/external-nebulizer-kit/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Flange-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 50,
+            "sessionsWithoutMetricPercentage": 50,
+            "pagesViews": 2,
+            "subTotal": 2,
+            "Url": "https://innova.co/louvers/#Round-vents"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#wireless-energy-management-thermostat"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 50,
+            "sessionsWithoutMetricPercentage": 50,
+            "pagesViews": 3,
+            "subTotal": 3,
+            "Url": "https://innova.co/stone/pro-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Surface-Mounted-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 13,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/aio-nomenclature-generator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#GWX-Gateway-Control-Board"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 33.33,
+            "sessionsWithoutMetricPercentage": 66.67,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/product-lines/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 26.67,
+            "sessionsWithoutMetricPercentage": 73.33,
+            "pagesViews": 4,
+            "subTotal": 4,
+            "Url": "https://innova.co/contact-us/locations/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/all-events/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#ducted"
+          },
+          {
+            "sessionsCount": 48,
+            "sessionsWithMetricPercentage": 6.25,
+            "sessionsWithoutMetricPercentage": 93.75,
+            "pagesViews": 3,
+            "subTotal": 3,
+            "Url": "https://innova.co/aio/wall-mounted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/?utm_source=chatgpt.com"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/innova-apartmentalize-2026/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/hvac-performance-calculator/"
+          },
+          {
+            "sessionsCount": 9,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/nextgen-pthp/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 20,
+            "sessionsWithoutMetricPercentage": 80,
+            "pagesViews": 5,
+            "subTotal": 5,
+            "Url": "https://innova.co/contact-us/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2#"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#mounted"
+          },
+          {
+            "sessionsCount": 10,
+            "sessionsWithMetricPercentage": 10,
+            "sessionsWithoutMetricPercentage": 90,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/innovacon-2026/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 33.33,
+            "sessionsWithoutMetricPercentage": 66.67,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/documentation/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 16.67,
+            "sessionsWithoutMetricPercentage": 83.33,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/about-us/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 33.33,
+            "sessionsWithoutMetricPercentage": 66.67,
+            "pagesViews": 5,
+            "subTotal": 5,
+            "Url": "https://innova.co/projects/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=3"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 100,
+            "sessionsWithoutMetricPercentage": 0,
+            "pagesViews": 2,
+            "subTotal": 2,
+            "Url": "https://innova.co/okki/ai-driven-jets/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=1"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#basic-touch-controller"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/horizontal-ducted/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#models"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/modular/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Concealed-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Window-Assembly-Adapter"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 16.67,
+            "sessionsWithoutMetricPercentage": 83.33,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/aio/floor-standing/"
+          },
+          {
+            "sessionsCount": 11,
+            "sessionsWithMetricPercentage": 9.09,
+            "sessionsWithoutMetricPercentage": 90.91,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/aio/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter-wm"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/willets-point/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/split-systems/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended-w-erv/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/frameless-trench/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 100,
+            "sessionsWithoutMetricPercentage": 0,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/osmo/recessed-high-wall-plaster-frame/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/brochures/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#advanced-touchscreen-controller"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact-complete/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/erv-module/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/shipping-cost-calculator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural-split/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/vancouver-heat-symposium/"
+          },
+          {
+            "sessionsCount": 22,
+            "sessionsWithMetricPercentage": 9.09,
+            "sessionsWithoutMetricPercentage": 90.91,
+            "pagesViews": 4,
+            "subTotal": 4,
+            "Url": "https://innova.co/aio/vertical-stack/"
+          },
+          {
+            "sessionsCount": 29,
+            "sessionsWithMetricPercentage": 13.79,
+            "sessionsWithoutMetricPercentage": 86.21000000000001,
+            "pagesViews": 4,
+            "subTotal": 4,
+            "Url": "https://innova.co/documentation/technical-resources/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/user-guides/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/111-wall-street/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 100,
+            "sessionsWithoutMetricPercentage": 0,
+            "pagesViews": 4,
+            "subTotal": 4,
+            "Url": "https://innova.co/osmo/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#pthp"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/"
+          },
+          {
+            "sessionsCount": 19,
+            "sessionsWithMetricPercentage": 21.05,
+            "sessionsWithoutMetricPercentage": 78.95,
+            "pagesViews": 5,
+            "subTotal": 5,
+            "Url": "https://innova.co/aio/wall-mounted-pro/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack-xl/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 40,
+            "sessionsWithoutMetricPercentage": 60,
+            "pagesViews": 3,
+            "subTotal": 3,
+            "Url": "https://innova.co/single-package-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 25,
+            "sessionsWithoutMetricPercentage": 75,
+            "pagesViews": 1,
+            "subTotal": 1,
+            "Url": "https://innova.co/stone/compact/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-events-thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/vertical-stack/"
+          }
+        ]
+      },
+      {
+        "metricName": "ScriptErrorCount",
+        "information": [
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/"
+          },
+          {
+            "sessionsCount": 88,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/Tools/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/"
+          },
+          {
+            "sessionsCount": 16,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/thermostats-gateways-checker/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/filter-cleaning-instructions/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/hot-topics/ptac-challenge/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/external-nebulizer-kit/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Flange-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Round-vents"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#wireless-energy-management-thermostat"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/pro-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Surface-Mounted-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 13,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/aio-nomenclature-generator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#GWX-Gateway-Control-Board"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/product-lines/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/locations/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/all-events/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#ducted"
+          },
+          {
+            "sessionsCount": 48,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/wall-mounted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/?utm_source=chatgpt.com"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/innova-apartmentalize-2026/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/hvac-performance-calculator/"
+          },
+          {
+            "sessionsCount": 9,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/nextgen-pthp/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2#"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#mounted"
+          },
+          {
+            "sessionsCount": 10,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-2026/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/about-us/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=3"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/okki/ai-driven-jets/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=1"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#basic-touch-controller"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/horizontal-ducted/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#models"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/modular/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Concealed-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Window-Assembly-Adapter"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/floor-standing/"
+          },
+          {
+            "sessionsCount": 11,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter-wm"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/willets-point/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/split-systems/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended-w-erv/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/frameless-trench/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/recessed-high-wall-plaster-frame/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/brochures/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#advanced-touchscreen-controller"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact-complete/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/erv-module/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/shipping-cost-calculator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural-split/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/vancouver-heat-symposium/"
+          },
+          {
+            "sessionsCount": 22,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack/"
+          },
+          {
+            "sessionsCount": 29,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/technical-resources/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/user-guides/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/111-wall-street/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#pthp"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/"
+          },
+          {
+            "sessionsCount": 19,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/wall-mounted-pro/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack-xl/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/single-package-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-events-thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/vertical-stack/"
+          }
+        ]
+      },
+      {
+        "metricName": "ErrorClickCount",
+        "information": [
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/"
+          },
+          {
+            "sessionsCount": 88,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/Tools/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/"
+          },
+          {
+            "sessionsCount": 16,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/thermostats-gateways-checker/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/filter-cleaning-instructions/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/hot-topics/ptac-challenge/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/external-nebulizer-kit/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Flange-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Round-vents"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#wireless-energy-management-thermostat"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/pro-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Surface-Mounted-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 13,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/aio-nomenclature-generator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#GWX-Gateway-Control-Board"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/product-lines/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/locations/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/all-events/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#ducted"
+          },
+          {
+            "sessionsCount": 48,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/wall-mounted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/?utm_source=chatgpt.com"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/innova-apartmentalize-2026/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/hvac-performance-calculator/"
+          },
+          {
+            "sessionsCount": 9,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/nextgen-pthp/"
+          },
+          {
+            "sessionsCount": 15,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2#"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#mounted"
+          },
+          {
+            "sessionsCount": 10,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-2026/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/about-us/"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=2"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=3"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/okki/ai-driven-jets/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/contact-us/?card=1"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#basic-touch-controller"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/horizontal-ducted/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#models"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/modular/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/louvers/#Concealed-Louver-Assembly"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/loop/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Window-Assembly-Adapter"
+          },
+          {
+            "sessionsCount": 6,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/floor-standing/"
+          },
+          {
+            "sessionsCount": 11,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-ducted/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter-wm"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/willets-point/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/split-systems/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/ceiling-suspended-w-erv/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/frameless-trench/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/recessed-high-wall-plaster-frame/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/brochures/"
+          },
+          {
+            "sessionsCount": 3,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/controllers/#advanced-touchscreen-controller"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact-complete/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/ephoca-is-now-innova/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/erv-module/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/tools/shipping-cost-calculator/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/architectural-split/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/latest-news/vancouver-heat-symposium/"
+          },
+          {
+            "sessionsCount": 22,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack/"
+          },
+          {
+            "sessionsCount": 29,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/technical-resources/"
+          },
+          {
+            "sessionsCount": 8,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/documentation/user-guides/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/projects/111-wall-street/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/wall-mounted/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/#pthp"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/adapters/"
+          },
+          {
+            "sessionsCount": 19,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/wall-mounted-pro/"
+          },
+          {
+            "sessionsCount": 7,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/aio/vertical-stack-xl/"
+          },
+          {
+            "sessionsCount": 5,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/single-package-systems/"
+          },
+          {
+            "sessionsCount": 4,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/stone/compact/"
+          },
+          {
+            "sessionsCount": 1,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/innovacon-events-thank-you/"
+          },
+          {
+            "sessionsCount": 2,
+            "sessionsWithMetricPercentage": 0,
+            "sessionsWithoutMetricPercentage": 100,
+            "pagesViews": 0,
+            "subTotal": 0,
+            "Url": "https://innova.co/osmo/vertical-stack/"
+          }
+        ]
+      },
+      {
+        "metricName": "ScrollDepth",
+        "information": [
+          {
+            "averageScrollDepth": 64.5,
+            "Url": "https://innova.co/loop/"
+          },
+          {
+            "averageScrollDepth": 91,
+            "Url": "https://innova.co/stone/"
+          },
+          {
+            "averageScrollDepth": 28.37,
+            "Url": "https://innova.co/"
+          },
+          {
+            "averageScrollDepth": 100,
+            "Url": "https://innova.co/Tools/"
+          },
+          {
+            "averageScrollDepth": 93.5,
+            "Url": "https://innova.co/osmo/"
+          },
+          {
+            "averageScrollDepth": 55.44,
+            "Url": "https://innova.co/aio/"
+          },
+          {
+            "averageScrollDepth": 52.5,
+            "Url": "https://innova.co/tools/thermostats-gateways-checker/"
+          },
+          {
+            "averageScrollDepth": 63.2,
+            "Url": "https://innova.co/loop/wall-mounted/"
+          },
+          {
+            "averageScrollDepth": 77,
+            "Url": "https://innova.co/documentation/filter-cleaning-instructions/"
+          },
+          {
+            "averageScrollDepth": 91,
+            "Url": "https://innova.co/hot-topics/ptac-challenge/"
+          },
+          {
+            "averageScrollDepth": 92,
+            "Url": "https://innova.co/external-nebulizer-kit/"
+          },
+          {
+            "averageScrollDepth": 53,
+            "Url": "https://innova.co/latest-news/"
+          },
+          {
+            "averageScrollDepth": 83.67,
+            "Url": "https://innova.co/louvers/#Flange-Louver-Assembly"
+          },
+          {
+            "averageScrollDepth": 92.33,
+            "Url": "https://innova.co/louvers/#Round-vents"
+          },
+          {
+            "averageScrollDepth": 55,
+            "Url": "https://innova.co/controllers/#wireless-energy-management-thermostat"
+          },
+          {
+            "averageScrollDepth": 64.78,
+            "Url": "https://innova.co/stone/pro-systems/"
+          },
+          {
+            "averageScrollDepth": 87.11,
+            "Url": "https://innova.co/louvers/"
+          },
+          {
+            "averageScrollDepth": 71.8,
+            "Url": "https://innova.co/louvers/#Surface-Mounted-Louver-Assembly"
+          },
+          {
+            "averageScrollDepth": 69.23,
+            "Url": "https://innova.co/tools/aio-nomenclature-generator/"
+          },
+          {
+            "averageScrollDepth": 88,
+            "Url": "https://innova.co/controllers/#GWX-Gateway-Control-Board"
+          },
+          {
+            "averageScrollDepth": 52.7,
+            "Url": "https://innova.co/contact-us/locations/"
+          },
+          {
+            "averageScrollDepth": 34,
+            "Url": "https://innova.co/product-lines/"
+          },
+          {
+            "averageScrollDepth": 79,
+            "Url": "https://innova.co/aio/#ducted"
+          },
+          {
+            "averageScrollDepth": 32.5,
+            "Url": "https://innova.co/stone/architectural/"
+          },
+          {
+            "averageScrollDepth": 23.5,
+            "Url": "https://innova.co/all-events/"
+          },
+          {
+            "averageScrollDepth": 56.33,
+            "Url": "https://innova.co/aio/wall-mounted/"
+          },
+          {
+            "averageScrollDepth": 60,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter"
+          },
+          {
+            "averageScrollDepth": 28,
+            "Url": "https://innova.co/?utm_source=chatgpt.com"
+          },
+          {
+            "averageScrollDepth": 35,
+            "Url": "https://innova.co/latest-news/innova-apartmentalize-2026/"
+          },
+          {
+            "averageScrollDepth": 64.5,
+            "Url": "https://innova.co/tools/hvac-performance-calculator/"
+          },
+          {
+            "averageScrollDepth": 58.46,
+            "Url": "https://innova.co/aio/nextgen-pthp/"
+          },
+          {
+            "averageScrollDepth": 69.92,
+            "Url": "https://innova.co/contact-us/"
+          },
+          {
+            "averageScrollDepth": 68.3,
+            "Url": "https://innova.co/controllers/"
+          },
+          {
+            "averageScrollDepth": 51,
+            "Url": "https://innova.co/contact-us/?card=2#"
+          },
+          {
+            "averageScrollDepth": 38.5,
+            "Url": "https://innova.co/aio/#mounted"
+          },
+          {
+            "averageScrollDepth": 51.07,
+            "Url": "https://innova.co/innovacon-2026/"
+          },
+          {
+            "averageScrollDepth": 56.67,
+            "Url": "https://innova.co/documentation/"
+          },
+          {
+            "averageScrollDepth": 42.88,
+            "Url": "https://innova.co/about-us/"
+          },
+          {
+            "averageScrollDepth": 66.27,
+            "Url": "https://innova.co/projects/"
+          },
+          {
+            "averageScrollDepth": 66,
+            "Url": "https://innova.co/contact-us/?card=2"
+          },
+          {
+            "averageScrollDepth": 94,
+            "Url": "https://innova.co/contact-us/?card=3"
+          },
+          {
+            "averageScrollDepth": 51,
+            "Url": "https://innova.co/ephoca-is-now-innova/"
+          },
+          {
+            "averageScrollDepth": 53,
+            "Url": "https://innova.co/okki/ai-driven-jets/"
+          },
+          {
+            "averageScrollDepth": 66,
+            "Url": "https://innova.co/contact-us/?card=1"
+          },
+          {
+            "averageScrollDepth": 82,
+            "Url": "https://innova.co/controllers/#basic-touch-controller"
+          },
+          {
+            "averageScrollDepth": 61.5,
+            "Url": "https://innova.co/osmo/horizontal-ducted/"
+          },
+          {
+            "averageScrollDepth": 60.56,
+            "Url": "https://innova.co/aio/#models"
+          },
+          {
+            "averageScrollDepth": 100,
+            "Url": "https://innova.co/modular/"
+          },
+          {
+            "averageScrollDepth": 44,
+            "Url": "https://innova.co/louvers/#Concealed-Louver-Assembly"
+          },
+          {
+            "averageScrollDepth": 90.75,
+            "Url": "https://innova.co/adapters/#Window-Assembly-Adapter"
+          },
+          {
+            "averageScrollDepth": 71.33,
+            "Url": "https://innova.co/aio/floor-standing/"
+          },
+          {
+            "averageScrollDepth": 50,
+            "Url": "https://innova.co/loop/ceiling-ducted/"
+          },
+          {
+            "averageScrollDepth": 60.95,
+            "Url": "https://innova.co/aio/ceiling-ducted/"
+          },
+          {
+            "averageScrollDepth": 42.22,
+            "Url": "https://innova.co/aio/ceiling-suspended/"
+          },
+          {
+            "averageScrollDepth": 86,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter-wm"
+          },
+          {
+            "averageScrollDepth": 44,
+            "Url": "https://innova.co/projects/willets-point/"
+          },
+          {
+            "averageScrollDepth": 80.25,
+            "Url": "https://innova.co/split-systems/"
+          },
+          {
+            "averageScrollDepth": 46.67,
+            "Url": "https://innova.co/aio/ceiling-suspended-w-erv/"
+          },
+          {
+            "averageScrollDepth": 90,
+            "Url": "https://innova.co/osmo/frameless-trench/"
+          },
+          {
+            "averageScrollDepth": 76.4,
+            "Url": "https://innova.co/documentation/brochures/"
+          },
+          {
+            "averageScrollDepth": 51,
+            "Url": "https://innova.co/osmo/recessed-high-wall-plaster-frame/"
+          },
+          {
+            "averageScrollDepth": 68,
+            "Url": "https://innova.co/controllers/#advanced-touchscreen-controller"
+          },
+          {
+            "averageScrollDepth": 42.5,
+            "Url": "https://innova.co/erv-module/"
+          },
+          {
+            "averageScrollDepth": 66,
+            "Url": "https://innova.co/latest-news/ephoca-is-now-innova/"
+          },
+          {
+            "averageScrollDepth": 81,
+            "Url": "https://innova.co/stone/compact-complete/"
+          },
+          {
+            "averageScrollDepth": 72,
+            "Url": "https://innova.co/tools/shipping-cost-calculator/"
+          },
+          {
+            "averageScrollDepth": 79,
+            "Url": "https://innova.co/stone/architectural-split/"
+          },
+          {
+            "averageScrollDepth": 100,
+            "Url": "https://innova.co/latest-news/vancouver-heat-symposium/"
+          },
+          {
+            "averageScrollDepth": 47.05,
+            "Url": "https://innova.co/aio/vertical-stack/"
+          },
+          {
+            "averageScrollDepth": 66.57,
+            "Url": "https://innova.co/documentation/technical-resources/"
+          },
+          {
+            "averageScrollDepth": 64.15,
+            "Url": "https://innova.co/documentation/user-guides/"
+          },
+          {
+            "averageScrollDepth": 24,
+            "Url": "https://innova.co/projects/111-wall-street/"
+          },
+          {
+            "averageScrollDepth": 57,
+            "Url": "https://innova.co/thank-you/"
+          },
+          {
+            "averageScrollDepth": 39.4,
+            "Url": "https://innova.co/osmo/wall-mounted/"
+          },
+          {
+            "averageScrollDepth": 66,
+            "Url": "https://innova.co/aio/#pthp"
+          },
+          {
+            "averageScrollDepth": 33.67,
+            "Url": "https://innova.co/adapters/"
+          },
+          {
+            "averageScrollDepth": 46.1,
+            "Url": "https://innova.co/aio/wall-mounted-pro/"
+          },
+          {
+            "averageScrollDepth": 54.6,
+            "Url": "https://innova.co/aio/vertical-stack-xl/"
+          },
+          {
+            "averageScrollDepth": 66,
+            "Url": "https://innova.co/single-package-systems/"
+          },
+          {
+            "averageScrollDepth": 100,
+            "Url": "https://innova.co/innovacon-events-thank-you/"
+          },
+          {
+            "averageScrollDepth": 43.2,
+            "Url": "https://innova.co/osmo/vertical-stack/"
+          },
+          {
+            "averageScrollDepth": 43.4,
+            "Url": "https://innova.co/stone/compact/"
+          }
+        ]
+      },
+      {
+        "metricName": "Traffic",
+        "information": [
+          {
+            "totalSessionCount": 0,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 14,
+            "pagesPerSessionPercentage": 1.0714285714285714,
+            "Url": null
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1.3333333333333333,
+            "Url": "https://innova.co/loop/"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/stone/"
+          },
+          {
+            "totalSessionCount": 88,
+            "totalBotSessionCount": 1,
+            "distinctUserCount": 83,
+            "pagesPerSessionPercentage": 1.5666666666666667,
+            "Url": "https://innova.co/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/Tools/"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/osmo/"
+          },
+          {
+            "totalSessionCount": 16,
+            "totalBotSessionCount": 2,
+            "distinctUserCount": 17,
+            "pagesPerSessionPercentage": 1.5555555555555556,
+            "Url": "https://innova.co/aio/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 2,
+            "Url": "https://innova.co/tools/thermostats-gateways-checker/"
+          },
+          {
+            "totalSessionCount": 4,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1.25,
+            "Url": "https://innova.co/loop/wall-mounted/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 2,
+            "Url": "https://innova.co/documentation/filter-cleaning-instructions/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/hot-topics/ptac-challenge/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/external-nebulizer-kit/"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 1.5,
+            "Url": "https://innova.co/latest-news/"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 1.5,
+            "Url": "https://innova.co/louvers/#Flange-Louver-Assembly"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 1.5,
+            "Url": "https://innova.co/louvers/#Round-vents"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/controllers/#wireless-energy-management-thermostat"
+          },
+          {
+            "totalSessionCount": 6,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1.5,
+            "Url": "https://innova.co/stone/pro-systems/"
+          },
+          {
+            "totalSessionCount": 4,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 4,
+            "pagesPerSessionPercentage": 2.25,
+            "Url": "https://innova.co/louvers/"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1.6666666666666667,
+            "Url": "https://innova.co/louvers/#Surface-Mounted-Louver-Assembly"
+          },
+          {
+            "totalSessionCount": 13,
+            "totalBotSessionCount": 1,
+            "distinctUserCount": 6,
+            "pagesPerSessionPercentage": 1.7142857142857142,
+            "Url": "https://innova.co/tools/aio-nomenclature-generator/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/controllers/#GWX-Gateway-Control-Board"
+          },
+          {
+            "totalSessionCount": 15,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 12,
+            "pagesPerSessionPercentage": 1.8,
+            "Url": "https://innova.co/contact-us/locations/"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1.3333333333333333,
+            "Url": "https://innova.co/product-lines/"
+          },
+          {
+            "totalSessionCount": 4,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 4,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/all-events/"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/stone/architectural/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/aio/#ducted"
+          },
+          {
+            "totalSessionCount": 48,
+            "totalBotSessionCount": 2,
+            "distinctUserCount": 40,
+            "pagesPerSessionPercentage": 1.4901960784313726,
+            "Url": "https://innova.co/aio/wall-mounted/"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/?utm_source=chatgpt.com"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/latest-news/innova-apartmentalize-2026/"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/tools/hvac-performance-calculator/"
+          },
+          {
+            "totalSessionCount": 9,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 8,
+            "pagesPerSessionPercentage": 1.4444444444444444,
+            "Url": "https://innova.co/aio/nextgen-pthp/"
+          },
+          {
+            "totalSessionCount": 15,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 14,
+            "pagesPerSessionPercentage": 1.6666666666666667,
+            "Url": "https://innova.co/contact-us/"
+          },
+          {
+            "totalSessionCount": 8,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 6,
+            "pagesPerSessionPercentage": 1.25,
+            "Url": "https://innova.co/controllers/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/contact-us/?card=2#"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/aio/#mounted"
+          },
+          {
+            "totalSessionCount": 10,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 10,
+            "pagesPerSessionPercentage": 1.5,
+            "Url": "https://innova.co/innovacon-2026/"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/documentation/"
+          },
+          {
+            "totalSessionCount": 6,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 5,
+            "pagesPerSessionPercentage": 1.3333333333333333,
+            "Url": "https://innova.co/about-us/"
+          },
+          {
+            "totalSessionCount": 6,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 6,
+            "pagesPerSessionPercentage": 1.8333333333333333,
+            "Url": "https://innova.co/projects/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/contact-us/?card=2"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/contact-us/?card=3"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/ephoca-is-now-innova/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 2,
+            "Url": "https://innova.co/okki/ai-driven-jets/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/contact-us/?card=1"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/controllers/#basic-touch-controller"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/osmo/horizontal-ducted/"
+          },
+          {
+            "totalSessionCount": 5,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1.8,
+            "Url": "https://innova.co/aio/#models"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1.5,
+            "Url": "https://innova.co/modular/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 2,
+            "Url": "https://innova.co/louvers/#Concealed-Louver-Assembly"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1.3333333333333333,
+            "Url": "https://innova.co/adapters/#Window-Assembly-Adapter"
+          },
+          {
+            "totalSessionCount": 6,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 6,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/aio/floor-standing/"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/loop/ceiling-ducted/"
+          },
+          {
+            "totalSessionCount": 11,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 10,
+            "pagesPerSessionPercentage": 1.8181818181818181,
+            "Url": "https://innova.co/aio/ceiling-ducted/"
+          },
+          {
+            "totalSessionCount": 7,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 6,
+            "pagesPerSessionPercentage": 1.2857142857142858,
+            "Url": "https://innova.co/aio/ceiling-suspended/"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter-wm"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 2,
+            "Url": "https://innova.co/projects/willets-point/"
+          },
+          {
+            "totalSessionCount": 8,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 5,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/split-systems/"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/aio/ceiling-suspended-w-erv/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/osmo/frameless-trench/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/osmo/recessed-high-wall-plaster-frame/"
+          },
+          {
+            "totalSessionCount": 5,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 4,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/documentation/brochures/"
+          },
+          {
+            "totalSessionCount": 3,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 3,
+            "pagesPerSessionPercentage": 1.25,
+            "Url": "https://innova.co/controllers/#advanced-touchscreen-controller"
+          },
+          {
+            "totalSessionCount": 4,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1.5,
+            "Url": "https://innova.co/erv-module/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/stone/compact-complete/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 2,
+            "Url": "https://innova.co/latest-news/ephoca-is-now-innova/"
+          },
+          {
+            "totalSessionCount": 4,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 4,
+            "pagesPerSessionPercentage": 1.6,
+            "Url": "https://innova.co/tools/shipping-cost-calculator/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/stone/architectural-split/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/latest-news/vancouver-heat-symposium/"
+          },
+          {
+            "totalSessionCount": 22,
+            "totalBotSessionCount": 2,
+            "distinctUserCount": 20,
+            "pagesPerSessionPercentage": 1.84,
+            "Url": "https://innova.co/aio/vertical-stack/"
+          },
+          {
+            "totalSessionCount": 29,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 23,
+            "pagesPerSessionPercentage": 1.2333333333333334,
+            "Url": "https://innova.co/documentation/technical-resources/"
+          },
+          {
+            "totalSessionCount": 8,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 6,
+            "pagesPerSessionPercentage": 2.5,
+            "Url": "https://innova.co/documentation/user-guides/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 2,
+            "Url": "https://innova.co/projects/111-wall-street/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/thank-you/"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 2.5,
+            "Url": "https://innova.co/osmo/wall-mounted/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/aio/#pthp"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 1,
+            "distinctUserCount": 2,
+            "pagesPerSessionPercentage": 2.3333333333333335,
+            "Url": "https://innova.co/adapters/"
+          },
+          {
+            "totalSessionCount": 19,
+            "totalBotSessionCount": 3,
+            "distinctUserCount": 21,
+            "pagesPerSessionPercentage": 1.5909090909090908,
+            "Url": "https://innova.co/aio/wall-mounted-pro/"
+          },
+          {
+            "totalSessionCount": 7,
+            "totalBotSessionCount": 1,
+            "distinctUserCount": 7,
+            "pagesPerSessionPercentage": 1.625,
+            "Url": "https://innova.co/aio/vertical-stack-xl/"
+          },
+          {
+            "totalSessionCount": 5,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 5,
+            "pagesPerSessionPercentage": 1.4,
+            "Url": "https://innova.co/single-package-systems/"
+          },
+          {
+            "totalSessionCount": 4,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 4,
+            "pagesPerSessionPercentage": 1.25,
+            "Url": "https://innova.co/stone/compact/"
+          },
+          {
+            "totalSessionCount": 2,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 2.5,
+            "Url": "https://innova.co/osmo/vertical-stack/"
+          },
+          {
+            "totalSessionCount": 1,
+            "totalBotSessionCount": 0,
+            "distinctUserCount": 1,
+            "pagesPerSessionPercentage": 1,
+            "Url": "https://innova.co/innovacon-events-thank-you/"
+          }
+        ]
+      },
+      {
+        "metricName": "EngagementTime",
+        "information": [
+          {
+            "totalTime": 318,
+            "activeTime": 116,
+            "Url": "https://innova.co/loop/"
+          },
+          {
+            "totalTime": 32,
+            "activeTime": 32,
+            "Url": "https://innova.co/stone/"
+          },
+          {
+            "totalTime": 266,
+            "activeTime": 69,
+            "Url": "https://innova.co/"
+          },
+          {
+            "totalTime": 70,
+            "activeTime": 44,
+            "Url": "https://innova.co/Tools/"
+          },
+          {
+            "totalTime": 197,
+            "activeTime": 33,
+            "Url": "https://innova.co/osmo/"
+          },
+          {
+            "totalTime": 196,
+            "activeTime": 46,
+            "Url": "https://innova.co/aio/"
+          },
+          {
+            "totalTime": 1065,
+            "activeTime": 1012,
+            "Url": "https://innova.co/tools/thermostats-gateways-checker/"
+          },
+          {
+            "totalTime": 192,
+            "activeTime": 76,
+            "Url": "https://innova.co/loop/wall-mounted/"
+          },
+          {
+            "totalTime": 714,
+            "activeTime": 36,
+            "Url": "https://innova.co/documentation/filter-cleaning-instructions/"
+          },
+          {
+            "totalTime": 27,
+            "activeTime": 27,
+            "Url": "https://innova.co/hot-topics/ptac-challenge/"
+          },
+          {
+            "totalTime": 7,
+            "activeTime": 7,
+            "Url": "https://innova.co/external-nebulizer-kit/"
+          },
+          {
+            "totalTime": 153,
+            "activeTime": 29,
+            "Url": "https://innova.co/latest-news/"
+          },
+          {
+            "totalTime": 29,
+            "activeTime": 29,
+            "Url": "https://innova.co/louvers/#Flange-Louver-Assembly"
+          },
+          {
+            "totalTime": 37,
+            "activeTime": 37,
+            "Url": "https://innova.co/louvers/#Round-vents"
+          },
+          {
+            "totalTime": 17,
+            "activeTime": 17,
+            "Url": "https://innova.co/controllers/#wireless-energy-management-thermostat"
+          },
+          {
+            "totalTime": 203,
+            "activeTime": 37,
+            "Url": "https://innova.co/stone/pro-systems/"
+          },
+          {
+            "totalTime": 452,
+            "activeTime": 123,
+            "Url": "https://innova.co/louvers/"
+          },
+          {
+            "totalTime": 43,
+            "activeTime": 43,
+            "Url": "https://innova.co/louvers/#Surface-Mounted-Louver-Assembly"
+          },
+          {
+            "totalTime": 829,
+            "activeTime": 487,
+            "Url": "https://innova.co/tools/aio-nomenclature-generator/"
+          },
+          {
+            "totalTime": 117,
+            "activeTime": 117,
+            "Url": "https://innova.co/controllers/#GWX-Gateway-Control-Board"
+          },
+          {
+            "totalTime": 439,
+            "activeTime": 96,
+            "Url": "https://innova.co/contact-us/locations/"
+          },
+          {
+            "totalTime": 25,
+            "activeTime": 25,
+            "Url": "https://innova.co/product-lines/"
+          },
+          {
+            "totalTime": 129,
+            "activeTime": 57,
+            "Url": "https://innova.co/all-events/"
+          },
+          {
+            "totalTime": 8,
+            "activeTime": 8,
+            "Url": "https://innova.co/stone/architectural/"
+          },
+          {
+            "totalTime": 275,
+            "activeTime": 196,
+            "Url": "https://innova.co/aio/#ducted"
+          },
+          {
+            "totalTime": 322,
+            "activeTime": 77,
+            "Url": "https://innova.co/aio/wall-mounted/"
+          },
+          {
+            "totalTime": 255,
+            "activeTime": 52,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter"
+          },
+          {
+            "totalTime": 16,
+            "activeTime": 16,
+            "Url": "https://innova.co/?utm_source=chatgpt.com"
+          },
+          {
+            "totalTime": 25,
+            "activeTime": 25,
+            "Url": "https://innova.co/latest-news/innova-apartmentalize-2026/"
+          },
+          {
+            "totalTime": 20,
+            "activeTime": 20,
+            "Url": "https://innova.co/tools/hvac-performance-calculator/"
+          },
+          {
+            "totalTime": 300,
+            "activeTime": 173,
+            "Url": "https://innova.co/aio/nextgen-pthp/"
+          },
+          {
+            "totalTime": 166,
+            "activeTime": 54,
+            "Url": "https://innova.co/contact-us/"
+          },
+          {
+            "totalTime": 179,
+            "activeTime": 97,
+            "Url": "https://innova.co/controllers/"
+          },
+          {
+            "totalTime": 317,
+            "activeTime": 0,
+            "Url": "https://innova.co/contact-us/?card=2#"
+          },
+          {
+            "totalTime": 5,
+            "activeTime": 5,
+            "Url": "https://innova.co/aio/#mounted"
+          },
+          {
+            "totalTime": 452,
+            "activeTime": 77,
+            "Url": "https://innova.co/innovacon-2026/"
+          },
+          {
+            "totalTime": 8,
+            "activeTime": 8,
+            "Url": "https://innova.co/documentation/"
+          },
+          {
+            "totalTime": 175,
+            "activeTime": 52,
+            "Url": "https://innova.co/about-us/"
+          },
+          {
+            "totalTime": 106,
+            "activeTime": 50,
+            "Url": "https://innova.co/projects/"
+          },
+          {
+            "totalTime": 240,
+            "activeTime": 6,
+            "Url": "https://innova.co/contact-us/?card=2"
+          },
+          {
+            "totalTime": 176,
+            "activeTime": 51,
+            "Url": "https://innova.co/contact-us/?card=3"
+          },
+          {
+            "totalTime": 162,
+            "activeTime": 25,
+            "Url": "https://innova.co/ephoca-is-now-innova/"
+          },
+          {
+            "totalTime": 100,
+            "activeTime": 100,
+            "Url": "https://innova.co/okki/ai-driven-jets/"
+          },
+          {
+            "totalTime": 244,
+            "activeTime": 1,
+            "Url": "https://innova.co/contact-us/?card=1"
+          },
+          {
+            "totalTime": 187,
+            "activeTime": 28,
+            "Url": "https://innova.co/osmo/horizontal-ducted/"
+          },
+          {
+            "totalTime": 37,
+            "activeTime": 34,
+            "Url": "https://innova.co/controllers/#basic-touch-controller"
+          },
+          {
+            "totalTime": 422,
+            "activeTime": 79,
+            "Url": "https://innova.co/aio/#models"
+          },
+          {
+            "totalTime": 19,
+            "activeTime": 19,
+            "Url": "https://innova.co/modular/"
+          },
+          {
+            "totalTime": 4,
+            "activeTime": 4,
+            "Url": "https://innova.co/louvers/#Concealed-Louver-Assembly"
+          },
+          {
+            "totalTime": 15,
+            "activeTime": 15,
+            "Url": "https://innova.co/aio/floor-standing/"
+          },
+          {
+            "totalTime": 312,
+            "activeTime": 217,
+            "Url": "https://innova.co/adapters/#Window-Assembly-Adapter"
+          },
+          {
+            "totalTime": 208,
+            "activeTime": 5,
+            "Url": "https://innova.co/loop/ceiling-ducted/"
+          },
+          {
+            "totalTime": 509,
+            "activeTime": 160,
+            "Url": "https://innova.co/aio/ceiling-ducted/"
+          },
+          {
+            "totalTime": 134,
+            "activeTime": 36,
+            "Url": "https://innova.co/aio/ceiling-suspended/"
+          },
+          {
+            "totalTime": 251,
+            "activeTime": 30,
+            "Url": "https://innova.co/adapters/#Sidewall-Adapter-wm"
+          },
+          {
+            "totalTime": 24,
+            "activeTime": 24,
+            "Url": "https://innova.co/projects/willets-point/"
+          },
+          {
+            "totalTime": 185,
+            "activeTime": 53,
+            "Url": "https://innova.co/split-systems/"
+          },
+          {
+            "totalTime": 150,
+            "activeTime": 49,
+            "Url": "https://innova.co/aio/ceiling-suspended-w-erv/"
+          },
+          {
+            "totalTime": 16,
+            "activeTime": 16,
+            "Url": "https://innova.co/osmo/frameless-trench/"
+          },
+          {
+            "totalTime": 8,
+            "activeTime": 8,
+            "Url": "https://innova.co/osmo/recessed-high-wall-plaster-frame/"
+          },
+          {
+            "totalTime": 220,
+            "activeTime": 18,
+            "Url": "https://innova.co/documentation/brochures/"
+          },
+          {
+            "totalTime": 230,
+            "activeTime": 130,
+            "Url": "https://innova.co/controllers/#advanced-touchscreen-controller"
+          },
+          {
+            "totalTime": 316,
+            "activeTime": 4,
+            "Url": "https://innova.co/erv-module/"
+          },
+          {
+            "totalTime": 42,
+            "activeTime": 18,
+            "Url": "https://innova.co/stone/compact-complete/"
+          },
+          {
+            "totalTime": 104,
+            "activeTime": 104,
+            "Url": "https://innova.co/latest-news/ephoca-is-now-innova/"
+          },
+          {
+            "totalTime": 608,
+            "activeTime": 200,
+            "Url": "https://innova.co/tools/shipping-cost-calculator/"
+          },
+          {
+            "totalTime": 341,
+            "activeTime": 36,
+            "Url": "https://innova.co/stone/architectural-split/"
+          },
+          {
+            "totalTime": 9,
+            "activeTime": 9,
+            "Url": "https://innova.co/latest-news/vancouver-heat-symposium/"
+          },
+          {
+            "totalTime": 427,
+            "activeTime": 176,
+            "Url": "https://innova.co/aio/vertical-stack/"
+          },
+          {
+            "totalTime": 281,
+            "activeTime": 42,
+            "Url": "https://innova.co/documentation/technical-resources/"
+          },
+          {
+            "totalTime": 890,
+            "activeTime": 605,
+            "Url": "https://innova.co/documentation/user-guides/"
+          },
+          {
+            "totalTime": 8,
+            "activeTime": 8,
+            "Url": "https://innova.co/projects/111-wall-street/"
+          },
+          {
+            "totalTime": 307,
+            "activeTime": 2,
+            "Url": "https://innova.co/thank-you/"
+          },
+          {
+            "totalTime": 85,
+            "activeTime": 85,
+            "Url": "https://innova.co/osmo/wall-mounted/"
+          },
+          {
+            "totalTime": 4,
+            "activeTime": 4,
+            "Url": "https://innova.co/aio/#pthp"
+          },
+          {
+            "totalTime": 1700,
+            "activeTime": 543,
+            "Url": "https://innova.co/adapters/"
+          },
+          {
+            "totalTime": 214,
+            "activeTime": 85,
+            "Url": "https://innova.co/aio/wall-mounted-pro/"
+          },
+          {
+            "totalTime": 365,
+            "activeTime": 189,
+            "Url": "https://innova.co/aio/vertical-stack-xl/"
+          },
+          {
+            "totalTime": 70,
+            "activeTime": 33,
+            "Url": "https://innova.co/single-package-systems/"
+          },
+          {
+            "totalTime": 57,
+            "activeTime": 49,
+            "Url": "https://innova.co/stone/compact/"
+          },
+          {
+            "totalTime": 772,
+            "activeTime": 175,
+            "Url": "https://innova.co/osmo/vertical-stack/"
+          },
+          {
+            "totalTime": 6,
+            "activeTime": 6,
+            "Url": "https://innova.co/innovacon-events-thank-you/"
+          }
+        ]
+      }
+    ]
+  }
+}

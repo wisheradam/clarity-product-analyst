@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-26",
+  "sentAt": "2026-08-26T16:20:39.591Z",
+  "from": "adam.wisher@innova.co",
+  "to": "adam.wisher@innova.co",
+  "subject": "INNOVA Clarity Daily — 2026-08-26 | 227 sessions | 13 dead | 96 quick backs",
+  "messageId": "<c522a619-f583-ad9d-6b1f-1243442e4264@innova.co>",
+  "transport": "Gmail SMTP",
+  "attachments": [
+    "clarity-daily-2026-08-26.html",
+    "clarity-daily-2026-08-26.md"
+  ],
+  "security": "Gmail App Password intentionally omitted."
+}
