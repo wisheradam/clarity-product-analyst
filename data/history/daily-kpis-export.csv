@@ -1,2 +1,0 @@
-date,collected_at,total_sessions,bot_sessions,human_sessions,distinct_users,pages_per_session_reported,engagement_total_seconds,engagement_active_seconds,engagement_active_percent,dead_clicks,dead_click_sessions_percent,quick_backs,quick_back_sessions_percent,rage_clicks,rage_click_sessions_percent,excessive_scroll,excessive_scroll_sessions_percent,script_errors,script_error_sessions_percent,error_clicks,error_click_sessions_percent
-2026-08-26,2026-08-26T11:06:30.951Z,233,6,227,178,3.121,601,203,33.78,13,3.43,96,20.6,0,0,0,0,0,0,0,0

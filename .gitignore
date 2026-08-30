@@ -1,7 +1,12 @@
 .env
 .env.*
 !.env.example
+
 node_modules/
+
+data/
+reports/
+logs/
 
 # VS Code local state
 .vscode/*.log
