@@ -3,8 +3,12 @@ name: INNOVA Clarity Daily Analytics
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 10 * * *"
-      timezone: "Asia/Jerusalem"
+    # GitHub cron is UTC.
+    # Israel is UTC+3 in summer and UTC+2 in winter.
+    # We schedule both UTC candidates and use a DST-aware gate below
+    # so exactly one scheduled run continues each day.
+    - cron: "0 7 * * *"
+    - cron: "0 8 * * *"
 
 permissions:
   contents: read
@@ -26,17 +30,50 @@ jobs:
         shell: powershell
         run: tzutil /s "Israel Standard Time"
 
+      - name: Select the correct Israel 10 AM trigger
+        id: schedule_gate
+        shell: powershell
+        run: |
+          if ("${{ github.event_name }}" -eq "workflow_dispatch") {
+            "run=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+            Write-Host "Manual run requested: continuing."
+            exit 0
+          }
+
+          $tz = [System.TimeZoneInfo]::FindSystemTimeZoneById("Israel Standard Time")
+          $offset = $tz.GetUtcOffset([DateTime]::UtcNow).TotalHours
+          $trigger = "${{ github.event.schedule }}"
+
+          Write-Host "Scheduled trigger : $trigger"
+          Write-Host "Israel UTC offset : UTC+$offset"
+          Write-Host "Israel local time : $((Get-Date).ToString('yyyy-MM-dd HH:mm:ss'))"
+
+          $correctSummerTrigger = ($trigger -eq "0 7 * * *" -and $offset -eq 3)
+          $correctWinterTrigger = ($trigger -eq "0 8 * * *" -and $offset -eq 2)
+
+          if ($correctSummerTrigger -or $correctWinterTrigger) {
+            "run=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+            Write-Host "Correct 10:00 Israel trigger: continuing."
+          }
+          else {
+            "run=false" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+            Write-Host "Secondary DST trigger: skipping pipeline."
+          }
+
       - name: Setup Node.js
+        if: steps.schedule_gate.outputs.run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: npm
 
       - name: Install dependencies
+        if: steps.schedule_gate.outputs.run == 'true'
         shell: powershell
         run: npm ci
 
       - name: Restore analytics state
+        if: steps.schedule_gate.outputs.run == 'true'
         uses: actions/cache@v4
         with:
           path: |
@@ -47,6 +84,7 @@ jobs:
             clarity-state-${{ runner.os }}-
 
       - name: Validate required secrets
+        if: steps.schedule_gate.outputs.run == 'true'
         shell: powershell
         env:
           CLARITY_API_TOKEN: ${{ secrets.CLARITY_API_TOKEN }}
@@ -78,6 +116,7 @@ jobs:
           Write-Host "All required secrets are configured."
 
       - name: Run Clarity daily pipeline
+        if: steps.schedule_gate.outputs.run == 'true'
         shell: powershell
         env:
           CLARITY_API_TOKEN: ${{ secrets.CLARITY_API_TOKEN }}
@@ -91,7 +130,7 @@ jobs:
             -File ".\scripts\run-daily-local-pipeline.ps1"
 
       - name: Completion summary
-        if: success()
+        if: steps.schedule_gate.outputs.run == 'true' && success()
         shell: powershell
         run: |
           Write-Host "========================================"
